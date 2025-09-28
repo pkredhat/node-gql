@@ -17,6 +17,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Install oc CLI
+          uses: redhat-actions/oc-tool@v1
+          with:
+            version: latest
+
       - name: Log in to OpenShift
         uses: redhat-actions/oc-login@v1
         with:
