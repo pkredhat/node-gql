@@ -37,7 +37,12 @@ jobs:
         env:
           IMAGE_NAME: ${{ env.IMAGE_NAME }}
         run: |
-          REGISTRY=$(oc registry info --default-route)
+          REGISTRY_HOST=$(oc get route default-route -n openshift-image-registry -o jsonpath='{.spec.host}')
+          if [ -z "$REGISTRY_HOST" ]; then
+            echo "::error::Unable to find default-route for the OpenShift image registry. Ensure the route is exposed (oc get route -n openshift-image-registry)."
+            exit 1
+          fi
+          REGISTRY=${REGISTRY_HOST}
           IMAGE_TAG=${GITHUB_SHA::7}
           echo "REGISTRY=$REGISTRY" >> $GITHUB_OUTPUT
           echo "IMAGE=$REGISTRY/${{ secrets.OCP_NAMESPACE }}/$IMAGE_NAME:$IMAGE_TAG" >> $GITHUB_OUTPUT
