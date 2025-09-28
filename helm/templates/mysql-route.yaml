@@ -1,0 +1,17 @@
+{{- if and .Values.mysql.enabled .Values.mysql.route.enabled .Values.mysql.tls.enabled }}
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  name: {{ include "node-graphql-chart.mysqlFullname" . }}
+  labels:
+    {{- include "node-graphql-chart.labels" . | nindent 4 }}
+spec:
+  host: {{ .Values.mysql.route.host | quote }}
+  to:
+    kind: Service
+    name: {{ include "node-graphql-chart.mysqlFullname" . }}
+  port:
+    targetPort: mysql
+  tls:
+    termination: passthrough
+{{- end }}

@@ -1,0 +1,6 @@
+apiVersion: v2
+name: node-graphql-chart
+description: Helm Chart for node-graphql application
+type: application
+version: 0.1.0
+appVersion: "1.0"

@@ -1,0 +1,37 @@
+{
+  "name": "node-graphql",
+  "version": "1.0.0",
+  "description": "Sample example of using GraphQL inside of node.js",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "seed": "node scripts/seed.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pkredhat/node-graphql.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pkredhat/node-graphql/issues"
+  },
+  "homepage": "https://github.com/pkredhat/node-graphql#readme",
+  "dependencies": {
+    "@apollo/server": "^5.0.0",
+    "apollo-server": "^3.13.0",
+    "dataloader": "^2.2.3",
+    "dotenv": "^17.2.2",
+    "graphql": "^16.11.0",
+    "graphql-subscriptions": "^3.0.0",
+    "mysql2": "^3.14.5",
+    "pg": "^8.16.3",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}

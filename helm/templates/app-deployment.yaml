@@ -1,0 +1,54 @@
+{{- if .Values.app.enabled }}
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ include "node-graphql-chart.appFullname" . }}
+  labels:
+    {{- include "node-graphql-chart.labels" . | nindent 4 }}
+spec:
+  replicas: {{ .Values.replicaCount | default 1 }}
+  selector:
+    matchLabels:
+      app: {{ include "node-graphql-chart.appFullname" . | quote }}
+  template:
+    metadata:
+      labels:
+        app: {{ include "node-graphql-chart.appFullname" . | quote }}
+    spec:
+      containers:
+        - name: graphql-app
+          image: {{ .Values.app.image | quote }}
+          imagePullPolicy: {{ .Values.app.imagePullPolicy | default "IfNotPresent" }}
+          ports:
+            - containerPort: {{ .Values.app.service.port }}
+              name: http
+          env:
+            {{- include "node-graphql-chart.appEnv" . | nindent 12 }}
+          volumeMounts:
+            {{- if .Values.sqlite.enabled }}
+            - name: sqlite-data
+              mountPath: {{ .Values.sqlite.mountPath | quote }}
+            {{- end }}
+          {{- with .Values.app.resources }}
+          resources:
+            {{- toYaml . | nindent 12 }}
+          {{- end }}
+      {{- if .Values.sqlite.enabled }}
+      volumes:
+        - name: sqlite-data
+          persistentVolumeClaim:
+            claimName: {{ include "node-graphql-chart.sqliteFullname" . }}
+      {{- end }}
+      {{- with .Values.app.nodeSelector }}
+      nodeSelector:
+        {{- toYaml . | nindent 8 }}
+      {{- end }}
+      {{- with .Values.app.affinity }}
+      affinity:
+        {{- toYaml . | nindent 8 }}
+      {{- end }}
+      {{- with .Values.app.tolerations }}
+      tolerations:
+        {{- toYaml . | nindent 8 }}
+      {{- end }}
+{{- end }}

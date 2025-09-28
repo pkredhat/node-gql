@@ -1,0 +1,57 @@
+{{- if .Values.mysql.enabled }}
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: {{ include "node-graphql-chart.mysqlFullname" . }}
+  labels:
+    {{- include "node-graphql-chart.labels" . | nindent 4 }}
+spec:
+  serviceName: {{ include "node-graphql-chart.mysqlFullname" . }}
+  replicas: 1
+  selector:
+    matchLabels:
+      app: {{ include "node-graphql-chart.mysqlFullname" . | quote }}
+  template:
+    metadata:
+      labels:
+        app: {{ include "node-graphql-chart.mysqlFullname" . | quote }}
+    spec:
+      containers:
+        - name: mysql
+          image: {{ .Values.mysql.image | quote }}
+          ports:
+            - containerPort: {{ .Values.mysql.port }}
+              name: mysql
+          env:
+            - name: MYSQL_USER
+              valueFrom:
+                secretKeyRef:
+                  name: {{ include "node-graphql-chart.mysqlFullname" . }}
+                  key: MYSQL_USER
+            - name: MYSQL_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: {{ include "node-graphql-chart.mysqlFullname" . }}
+                  key: MYSQL_PASSWORD
+            - name: MYSQL_ROOT_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: {{ include "node-graphql-chart.mysqlFullname" . }}
+                  key: MYSQL_ROOT_PASSWORD
+            - name: MYSQL_DATABASE
+              valueFrom:
+                secretKeyRef:
+                  name: {{ include "node-graphql-chart.mysqlFullname" . }}
+                  key: MYSQL_DATABASE
+          volumeMounts:
+            - name: mysql-storage
+              mountPath: /var/lib/mysql
+  volumeClaimTemplates:
+    - metadata:
+        name: mysql-storage
+      spec:
+        accessModes: ["ReadWriteOnce"]
+        resources:
+          requests:
+            storage: {{ .Values.mysql.storage | default "1Gi" }}
+{{- end }}

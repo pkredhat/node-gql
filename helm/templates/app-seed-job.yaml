@@ -1,0 +1,60 @@
+{{- if and .Values.app.enabled .Values.seedJob.enabled }}
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: {{ include "node-graphql-chart.appFullname" . }}-seed
+  labels:
+    {{- include "node-graphql-chart.labels" . | nindent 4 }}
+  annotations:
+    "helm.sh/hook": post-install,post-upgrade
+    "helm.sh/hook-weight": "5"
+    "helm.sh/hook-delete-policy": before-hook-creation,hook-succeeded
+    {{- range $key, $value := .Values.seedJob.annotations }}
+    {{ $key }}: {{ $value | quote }}
+    {{- end }}
+spec:
+  backoffLimit: {{ .Values.seedJob.backoffLimit | default 3 }}
+  template:
+    metadata:
+      labels:
+        {{- include "node-graphql-chart.labels" . | nindent 8 }}
+    spec:
+      restartPolicy: OnFailure
+      containers:
+        - name: seed
+          image: {{ .Values.app.image | quote }}
+          imagePullPolicy: {{ .Values.app.imagePullPolicy | default "IfNotPresent" }}
+          command: ["node", "scripts/seed.js"]
+          env:
+            {{- include "node-graphql-chart.appEnv" . | nindent 12 }}
+            {{- with .Values.seedJob.env }}
+            {{- toYaml . | nindent 12 }}
+            {{- end }}
+          {{- if .Values.sqlite.enabled }}
+          volumeMounts:
+            - name: sqlite-data
+              mountPath: {{ .Values.sqlite.mountPath | quote }}
+          {{- end }}
+          {{- with .Values.seedJob.resources }}
+          resources:
+            {{- toYaml . | nindent 12 }}
+          {{- end }}
+      {{- if .Values.sqlite.enabled }}
+      volumes:
+        - name: sqlite-data
+          persistentVolumeClaim:
+            claimName: {{ include "node-graphql-chart.sqliteFullname" . }}
+      {{- end }}
+      {{- with .Values.seedJob.nodeSelector }}
+      nodeSelector:
+        {{- toYaml . | nindent 8 }}
+      {{- end }}
+      {{- with .Values.seedJob.affinity }}
+      affinity:
+        {{- toYaml . | nindent 8 }}
+      {{- end }}
+      {{- with .Values.seedJob.tolerations }}
+      tolerations:
+        {{- toYaml . | nindent 8 }}
+      {{- end }}
+{{- end }}

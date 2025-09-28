@@ -1,0 +1,19 @@
+{{- if .Values.sqlite.enabled }}
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: {{ include "node-graphql-chart.sqliteFullname" . }}
+  labels:
+    {{- include "node-graphql-chart.labels" . | nindent 4 }}
+spec:
+  accessModes:
+{{- range .Values.sqlite.accessModes }}
+    - {{ . | quote }}
+{{- end }}
+  resources:
+    requests:
+      storage: {{ .Values.sqlite.storage | quote }}
+{{- if .Values.sqlite.storageClassName }}
+  storageClassName: {{ .Values.sqlite.storageClassName | quote }}
+{{- end }}
+{{- end }}

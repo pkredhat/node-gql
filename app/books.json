@@ -1,0 +1,4002 @@
+[
+  {
+    "id": 1,
+    "authorId": 1,
+    "title": "Last Paradox in Eirene",
+    "synopsis": "In Last Paradox in Eirene, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9788789230926",
+    "publicationdate": "1989-02-03"
+  },
+  {
+    "id": 2,
+    "authorId": 1,
+    "title": "Dreams of a Forgotten Throne",
+    "synopsis": "In Dreams of a Forgotten Throne, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9780241460733",
+    "publicationdate": "2018-03-10"
+  },
+  {
+    "id": 3,
+    "authorId": 1,
+    "title": "The Wandering Sky",
+    "synopsis": "The Wandering Sky follows a brilliant protagonist who must reconcile past secrets with a perilous future.",
+    "isbn": "9787282238776",
+    "publicationdate": "1976-02-03"
+  },
+  {
+    "id": 4,
+    "authorId": 1,
+    "title": "Dreams of a Whispering Garden",
+    "synopsis": "In Dreams of a Whispering Garden, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9788734379883",
+    "publicationdate": "1987-11-20"
+  },
+  {
+    "id": 5,
+    "authorId": 1,
+    "title": "Wharf of Aurora",
+    "synopsis": "Set in Orion, Wharf of Aurora unravels the mystery surrounding an ancient artifact and the power it bestows.",
+    "isbn": "9788517770677",
+    "publicationdate": "1970-10-17"
+  },
+  {
+    "id": 6,
+    "authorId": 2,
+    "title": "Beyond the Eclipse",
+    "synopsis": "Set in Lunaris, Beyond the Eclipse unravels the mystery surrounding an ancient artifact and the power it bestows.",
+    "isbn": "9787147497215",
+    "publicationdate": "1996-05-07"
+  },
+  {
+    "id": 7,
+    "authorId": 2,
+    "title": "Into the Restless Aurora",
+    "synopsis": "Into the Restless Aurora follows a fallen protagonist who must reconcile past secrets with a perilous future.",
+    "isbn": "9788320502341",
+    "publicationdate": "1960-12-31"
+  },
+  {
+    "id": 8,
+    "authorId": 2,
+    "title": "Chronicles of the Spectral Covenant",
+    "synopsis": "In Chronicles of the Spectral Covenant, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9782263473156",
+    "publicationdate": "1981-04-25"
+  },
+  {
+    "id": 9,
+    "authorId": 2,
+    "title": "Echoes of Mirror",
+    "synopsis": "Set in Solace, Echoes of Mirror unravels the mystery surrounding an ancient artifact and the power it bestows.",
+    "isbn": "9781889246458",
+    "publicationdate": "2007-07-30"
+  },
+  {
+    "id": 10,
+    "authorId": 2,
+    "title": "Chronicles of the Forgotten Throne",
+    "synopsis": "In Chronicles of the Forgotten Throne, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9782387973928",
+    "publicationdate": "2020-01-14"
+  },
+  {
+    "id": 11,
+    "authorId": 3,
+    "title": "Into the Velvet Aurora",
+    "synopsis": "In Into the Velvet Aurora, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9788702163790",
+    "publicationdate": "1979-11-03"
+  },
+  {
+    "id": 12,
+    "authorId": 3,
+    "title": "Chronicles of the Obsidian Throne",
+    "synopsis": "A sweeping narrative, Chronicles of the Obsidian Throne charts the journey of unlikely allies forging a new destiny.",
+    "isbn": "9787613502253",
+    "publicationdate": "2004-08-10"
+  },
+  {
+    "id": 13,
+    "authorId": 3,
+    "title": "The Radiant Eclipse",
+    "synopsis": "Set in Nymera, The Radiant Eclipse unravels the mystery surrounding an ancient artifact and the power it bestows.",
+    "isbn": "9783139368067",
+    "publicationdate": "2015-05-02"
+  },
+  {
+    "id": 14,
+    "authorId": 3,
+    "title": "Shadows over Serapha",
+    "synopsis": "Shadows over Serapha follows a secret protagonist who must reconcile past secrets with a perilous future.",
+    "isbn": "9788416426265",
+    "publicationdate": "1958-04-10"
+  },
+  {
+    "id": 15,
+    "authorId": 3,
+    "title": "Covenant of Aether",
+    "synopsis": "A sweeping narrative, Covenant of Aether charts the journey of unlikely allies forging a new destiny.",
+    "isbn": "9785958712443",
+    "publicationdate": "1959-09-09"
+  },
+  {
+    "id": 16,
+    "authorId": 4,
+    "title": "Into the Emerald Meridian",
+    "synopsis": "Set in Orion, Into the Emerald Meridian unravels the mystery surrounding an ancient artifact and the power it bestows.",
+    "isbn": "9782079246397",
+    "publicationdate": "2013-05-15"
+  },
+  {
+    "id": 17,
+    "authorId": 4,
+    "title": "Chronicles of the Fallen Covenant",
+    "synopsis": "Set in Eirene, Chronicles of the Fallen Covenant unravels the mystery surrounding an ancient artifact and the power it bestows.",
+    "isbn": "9789928697336",
+    "publicationdate": "1990-02-06"
+  },
+  {
+    "id": 18,
+    "authorId": 4,
+    "title": "Shadows over Zephyria",
+    "synopsis": "Set in Verdance, Shadows over Zephyria unravels the mystery surrounding an ancient artifact and the power it bestows.",
+    "isbn": "9784442186762",
+    "publicationdate": "1972-02-23"
+  },
+  {
+    "id": 19,
+    "authorId": 4,
+    "title": "Dreams of a Secret Archive",
+    "synopsis": "Dreams of a Secret Archive follows a spectral protagonist who must reconcile past secrets with a perilous future.",
+    "isbn": "9782952626397",
+    "publicationdate": "2015-03-22"
+  },
+  {
+    "id": 20,
+    "authorId": 4,
+    "title": "The Crimson Odyssey",
+    "synopsis": "In The Crimson Odyssey, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9783622557603",
+    "publicationdate": "1972-12-06"
+  },
+  {
+    "id": 21,
+    "authorId": 5,
+    "title": "Dreams of a Emerald River",
+    "synopsis": "In Dreams of a Emerald River, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9787070789994",
+    "publicationdate": "1966-08-01"
+  },
+  {
+    "id": 22,
+    "authorId": 5,
+    "title": "Last Wharf in Verdance",
+    "synopsis": "Last Wharf in Verdance explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9784085599021",
+    "publicationdate": "1982-03-07"
+  },
+  {
+    "id": 23,
+    "authorId": 5,
+    "title": "Into the Secret Tempest",
+    "synopsis": "Into the Secret Tempest follows a crimson protagonist who must reconcile past secrets with a perilous future.",
+    "isbn": "9785987833832",
+    "publicationdate": "2013-04-22"
+  },
+  {
+    "id": 24,
+    "authorId": 5,
+    "title": "The Crimson Garden",
+    "synopsis": "The Crimson Garden follows a brilliant protagonist who must reconcile past secrets with a perilous future.",
+    "isbn": "9788862871609",
+    "publicationdate": "1995-07-27"
+  },
+  {
+    "id": 25,
+    "authorId": 5,
+    "title": "Archive of Vesper",
+    "synopsis": "Archive of Vesper follows a whispering protagonist who must reconcile past secrets with a perilous future.",
+    "isbn": "9787116753505",
+    "publicationdate": "1963-06-13"
+  },
+  {
+    "id": 26,
+    "authorId": 6,
+    "title": "Last Compass in Verdance",
+    "synopsis": "Last Compass in Verdance follows a golden protagonist who must reconcile past secrets with a perilous future.",
+    "isbn": "9781076806914",
+    "publicationdate": "1990-11-16"
+  },
+  {
+    "id": 27,
+    "authorId": 6,
+    "title": "The Brilliant Legacy",
+    "synopsis": "The Brilliant Legacy follows a eternal protagonist who must reconcile past secrets with a perilous future.",
+    "isbn": "9780067946867",
+    "publicationdate": "2006-03-13"
+  },
+  {
+    "id": 28,
+    "authorId": 6,
+    "title": "Last Tapestry in Elysian",
+    "synopsis": "Last Tapestry in Elysian follows a ancient protagonist who must reconcile past secrets with a perilous future.",
+    "isbn": "9785646327609",
+    "publicationdate": "1956-05-08"
+  },
+  {
+    "id": 29,
+    "authorId": 6,
+    "title": "Echoes of Reckoning",
+    "synopsis": "Echoes of Reckoning follows a whispering protagonist who must reconcile past secrets with a perilous future.",
+    "isbn": "9784676272921",
+    "publicationdate": "2016-01-23"
+  },
+  {
+    "id": 30,
+    "authorId": 6,
+    "title": "Into the Shattered Verdance",
+    "synopsis": "In Into the Shattered Verdance, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9785603125695",
+    "publicationdate": "2004-11-22"
+  },
+  {
+    "id": 31,
+    "authorId": 7,
+    "title": "The Brilliant Covenant",
+    "synopsis": "The Brilliant Covenant follows a golden protagonist who must reconcile past secrets with a perilous future.",
+    "isbn": "9788513006075",
+    "publicationdate": "1973-11-29"
+  },
+  {
+    "id": 32,
+    "authorId": 7,
+    "title": "Whispers in the Solace",
+    "synopsis": "Whispers in the Solace follows a luminous protagonist who must reconcile past secrets with a perilous future.",
+    "isbn": "9781951689209",
+    "publicationdate": "2014-05-20"
+  },
+  {
+    "id": 33,
+    "authorId": 7,
+    "title": "Echoes of Citadel",
+    "synopsis": "A sweeping narrative, Echoes of Citadel charts the journey of unlikely allies forging a new destiny.",
+    "isbn": "9784143493348",
+    "publicationdate": "1950-12-23"
+  },
+  {
+    "id": 34,
+    "authorId": 7,
+    "title": "Last Empire in Galen",
+    "synopsis": "Last Empire in Galen follows a forgotten protagonist who must reconcile past secrets with a perilous future.",
+    "isbn": "9788122723562",
+    "publicationdate": "1970-12-07"
+  },
+  {
+    "id": 35,
+    "authorId": 7,
+    "title": "The Crimson Reckoning",
+    "synopsis": "Set in Solace, The Crimson Reckoning unravels the mystery surrounding an ancient artifact and the power it bestows.",
+    "isbn": "9783786169485",
+    "publicationdate": "2018-03-18"
+  },
+  {
+    "id": 36,
+    "authorId": 8,
+    "title": "Echoes of River",
+    "synopsis": "In Echoes of River, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9782821664178",
+    "publicationdate": "1967-08-23"
+  },
+  {
+    "id": 37,
+    "authorId": 8,
+    "title": "Shadows over Halcyon",
+    "synopsis": "Shadows over Halcyon explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9784553575007",
+    "publicationdate": "2023-08-09"
+  },
+  {
+    "id": 38,
+    "authorId": 8,
+    "title": "Into the Midnight Eirene",
+    "synopsis": "Into the Midnight Eirene explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9788143626989",
+    "publicationdate": "1972-10-16"
+  },
+  {
+    "id": 39,
+    "authorId": 8,
+    "title": "Last Beacon in Verdance",
+    "synopsis": "Last Beacon in Verdance follows a golden protagonist who must reconcile past secrets with a perilous future.",
+    "isbn": "9788669676084",
+    "publicationdate": "1972-08-18"
+  },
+  {
+    "id": 40,
+    "authorId": 8,
+    "title": "Dreams of a Eternal Archive",
+    "synopsis": "A sweeping narrative, Dreams of a Eternal Archive charts the journey of unlikely allies forging a new destiny.",
+    "isbn": "9784874508254",
+    "publicationdate": "2020-09-11"
+  },
+  {
+    "id": 41,
+    "authorId": 9,
+    "title": "Echoes of Legacy",
+    "synopsis": "Echoes of Legacy explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9785692922885",
+    "publicationdate": "1997-11-09"
+  },
+  {
+    "id": 42,
+    "authorId": 9,
+    "title": "Last Garden in Aether",
+    "synopsis": "A sweeping narrative, Last Garden in Aether charts the journey of unlikely allies forging a new destiny.",
+    "isbn": "9789171247695",
+    "publicationdate": "1964-04-08"
+  },
+  {
+    "id": 43,
+    "authorId": 9,
+    "title": "Last Voyage in Nymera",
+    "synopsis": "Last Voyage in Nymera follows a blazing protagonist who must reconcile past secrets with a perilous future.",
+    "isbn": "9789128520231",
+    "publicationdate": "1982-03-25"
+  },
+  {
+    "id": 44,
+    "authorId": 9,
+    "title": "Dreams of a Crimson River",
+    "synopsis": "Dreams of a Crimson River explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9786475376793",
+    "publicationdate": "1977-03-20"
+  },
+  {
+    "id": 45,
+    "authorId": 9,
+    "title": "Dreams of a Midnight Labyrinth",
+    "synopsis": "Set in Lunaris, Dreams of a Midnight Labyrinth unravels the mystery surrounding an ancient artifact and the power it bestows.",
+    "isbn": "9788127238631",
+    "publicationdate": "1963-12-23"
+  },
+  {
+    "id": 46,
+    "authorId": 10,
+    "title": "Chronicles of the Radiant Chronicle",
+    "synopsis": "Set in Meridian, Chronicles of the Radiant Chronicle unravels the mystery surrounding an ancient artifact and the power it bestows.",
+    "isbn": "9780958413618",
+    "publicationdate": "1954-09-04"
+  },
+  {
+    "id": 47,
+    "authorId": 10,
+    "title": "Beyond the Citadel",
+    "synopsis": "In Beyond the Citadel, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9787537679024",
+    "publicationdate": "1957-01-29"
+  },
+  {
+    "id": 48,
+    "authorId": 10,
+    "title": "Last Harbor in Zephyria",
+    "synopsis": "Last Harbor in Zephyria explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9781689988142",
+    "publicationdate": "1992-07-16"
+  },
+  {
+    "id": 49,
+    "authorId": 10,
+    "title": "Echoes of Storm",
+    "synopsis": "Echoes of Storm explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9784156859050",
+    "publicationdate": "2014-02-10"
+  },
+  {
+    "id": 50,
+    "authorId": 10,
+    "title": "The Emerald Legacy",
+    "synopsis": "In The Emerald Legacy, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9784433192006",
+    "publicationdate": "1966-08-03"
+  },
+  {
+    "id": 51,
+    "authorId": 11,
+    "title": "Last Forest in Galen",
+    "synopsis": "In Last Forest in Galen, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9788997364157",
+    "publicationdate": "1994-02-24"
+  },
+  {
+    "id": 52,
+    "authorId": 11,
+    "title": "Tapestry of Lyra",
+    "synopsis": "A sweeping narrative, Tapestry of Lyra charts the journey of unlikely allies forging a new destiny.",
+    "isbn": "9787165564654",
+    "publicationdate": "2006-04-04"
+  },
+  {
+    "id": 53,
+    "authorId": 11,
+    "title": "Echoes of Covenant",
+    "synopsis": "In Echoes of Covenant, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9788624127892",
+    "publicationdate": "1994-11-14"
+  },
+  {
+    "id": 54,
+    "authorId": 11,
+    "title": "Last Empire in Lyra",
+    "synopsis": "Set in Meridian, Last Empire in Lyra unravels the mystery surrounding an ancient artifact and the power it bestows.",
+    "isbn": "9786003682201",
+    "publicationdate": "1954-03-24"
+  },
+  {
+    "id": 55,
+    "authorId": 11,
+    "title": "Whispers in the Tempest",
+    "synopsis": "A sweeping narrative, Whispers in the Tempest charts the journey of unlikely allies forging a new destiny.",
+    "isbn": "9783070577185",
+    "publicationdate": "2023-09-03"
+  },
+  {
+    "id": 56,
+    "authorId": 12,
+    "title": "Into the Fallen Halcyon",
+    "synopsis": "In Into the Fallen Halcyon, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9783559365628",
+    "publicationdate": "1962-12-28"
+  },
+  {
+    "id": 57,
+    "authorId": 12,
+    "title": "Dreams of a Emerald Reckoning",
+    "synopsis": "Set in Caelum, Dreams of a Emerald Reckoning unravels the mystery surrounding an ancient artifact and the power it bestows.",
+    "isbn": "9780533088066",
+    "publicationdate": "1995-07-23"
+  },
+  {
+    "id": 58,
+    "authorId": 12,
+    "title": "The Silent Beacon",
+    "synopsis": "Set in Lyra, The Silent Beacon unravels the mystery surrounding an ancient artifact and the power it bestows.",
+    "isbn": "9784319077624",
+    "publicationdate": "2020-05-14"
+  },
+  {
+    "id": 59,
+    "authorId": 12,
+    "title": "Whispers in the Elysian",
+    "synopsis": "Whispers in the Elysian explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9782722282550",
+    "publicationdate": "1965-06-28"
+  },
+  {
+    "id": 60,
+    "authorId": 12,
+    "title": "Dreams of a Emerald Palimpsest",
+    "synopsis": "In Dreams of a Emerald Palimpsest, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9780519157000",
+    "publicationdate": "1997-09-01"
+  },
+  {
+    "id": 61,
+    "authorId": 13,
+    "title": "Wharf of Orion",
+    "synopsis": "A sweeping narrative, Wharf of Orion charts the journey of unlikely allies forging a new destiny.",
+    "isbn": "9784755486088",
+    "publicationdate": "1975-07-02"
+  },
+  {
+    "id": 62,
+    "authorId": 13,
+    "title": "The Obsidian Garden",
+    "synopsis": "The Obsidian Garden follows a radiant protagonist who must reconcile past secrets with a perilous future.",
+    "isbn": "9780828153383",
+    "publicationdate": "2003-05-20"
+  },
+  {
+    "id": 63,
+    "authorId": 13,
+    "title": "The Luminous Song",
+    "synopsis": "In The Luminous Song, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9780624749433",
+    "publicationdate": "2009-08-07"
+  },
+  {
+    "id": 64,
+    "authorId": 13,
+    "title": "The Forgotten Chronicle",
+    "synopsis": "The Forgotten Chronicle explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9788671256642",
+    "publicationdate": "2021-02-06"
+  },
+  {
+    "id": 65,
+    "authorId": 13,
+    "title": "The Secret Forest",
+    "synopsis": "A sweeping narrative, The Secret Forest charts the journey of unlikely allies forging a new destiny.",
+    "isbn": "9783374317069",
+    "publicationdate": "1989-07-27"
+  },
+  {
+    "id": 66,
+    "authorId": 14,
+    "title": "Chronicles of the Secret Garden",
+    "synopsis": "Chronicles of the Secret Garden explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9780512121357",
+    "publicationdate": "1986-06-11"
+  },
+  {
+    "id": 67,
+    "authorId": 14,
+    "title": "Echoes of Palimpsest",
+    "synopsis": "A sweeping narrative, Echoes of Palimpsest charts the journey of unlikely allies forging a new destiny.",
+    "isbn": "9787124322635",
+    "publicationdate": "1969-09-24"
+  },
+  {
+    "id": 68,
+    "authorId": 14,
+    "title": "Beyond the Archive",
+    "synopsis": "In Beyond the Archive, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9785115933304",
+    "publicationdate": "2005-09-09"
+  },
+  {
+    "id": 69,
+    "authorId": 14,
+    "title": "Chronicles of the Wandering Empire",
+    "synopsis": "Set in Lyra, Chronicles of the Wandering Empire unravels the mystery surrounding an ancient artifact and the power it bestows.",
+    "isbn": "9780573854462",
+    "publicationdate": "1981-06-26"
+  },
+  {
+    "id": 70,
+    "authorId": 14,
+    "title": "Beacon of Tempest",
+    "synopsis": "Set in Nymera, Beacon of Tempest unravels the mystery surrounding an ancient artifact and the power it bestows.",
+    "isbn": "9788465261348",
+    "publicationdate": "1955-09-02"
+  },
+  {
+    "id": 71,
+    "authorId": 15,
+    "title": "Dreams of a Spectral Chronicle",
+    "synopsis": "Dreams of a Spectral Chronicle follows a forgotten protagonist who must reconcile past secrets with a perilous future.",
+    "isbn": "9786894752600",
+    "publicationdate": "1973-03-19"
+  },
+  {
+    "id": 72,
+    "authorId": 15,
+    "title": "Last Legacy in Galen",
+    "synopsis": "A sweeping narrative, Last Legacy in Galen charts the journey of unlikely allies forging a new destiny.",
+    "isbn": "9786325685459",
+    "publicationdate": "2016-06-21"
+  },
+  {
+    "id": 73,
+    "authorId": 15,
+    "title": "Echoes of Masquerade",
+    "synopsis": "Echoes of Masquerade explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9780124442364",
+    "publicationdate": "1956-09-24"
+  },
+  {
+    "id": 74,
+    "authorId": 15,
+    "title": "The Brilliant Palimpsest",
+    "synopsis": "In The Brilliant Palimpsest, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9784824069030",
+    "publicationdate": "2006-01-27"
+  },
+  {
+    "id": 75,
+    "authorId": 15,
+    "title": "Dreams of a Feathered Voyage",
+    "synopsis": "Set in Orion, Dreams of a Feathered Voyage unravels the mystery surrounding an ancient artifact and the power it bestows.",
+    "isbn": "9780034017613",
+    "publicationdate": "2020-11-05"
+  },
+  {
+    "id": 76,
+    "authorId": 16,
+    "title": "Into the Feathered Meridian",
+    "synopsis": "Set in Eirene, Into the Feathered Meridian unravels the mystery surrounding an ancient artifact and the power it bestows.",
+    "isbn": "9788266460853",
+    "publicationdate": "2006-06-30"
+  },
+  {
+    "id": 77,
+    "authorId": 16,
+    "title": "Dreams of a Spectral Constellation",
+    "synopsis": "Dreams of a Spectral Constellation explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9789529124142",
+    "publicationdate": "1984-04-24"
+  },
+  {
+    "id": 78,
+    "authorId": 16,
+    "title": "Empire of Arcadia",
+    "synopsis": "A sweeping narrative, Empire of Arcadia charts the journey of unlikely allies forging a new destiny.",
+    "isbn": "9782059444459",
+    "publicationdate": "1966-05-03"
+  },
+  {
+    "id": 79,
+    "authorId": 16,
+    "title": "Harbor of Lunaris",
+    "synopsis": "In Harbor of Lunaris, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9789743187510",
+    "publicationdate": "1994-05-02"
+  },
+  {
+    "id": 80,
+    "authorId": 16,
+    "title": "Chronicles of the Vast Legacy",
+    "synopsis": "In Chronicles of the Vast Legacy, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9782070348967",
+    "publicationdate": "1993-12-23"
+  },
+  {
+    "id": 81,
+    "authorId": 17,
+    "title": "Echoes of Odyssey",
+    "synopsis": "Set in Halcyon, Echoes of Odyssey unravels the mystery surrounding an ancient artifact and the power it bestows.",
+    "isbn": "9780464775194",
+    "publicationdate": "1987-09-09"
+  },
+  {
+    "id": 82,
+    "authorId": 17,
+    "title": "Last Heir in Caligo",
+    "synopsis": "In Last Heir in Caligo, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9784461495273",
+    "publicationdate": "1995-04-18"
+  },
+  {
+    "id": 83,
+    "authorId": 17,
+    "title": "Shadows over Lyra",
+    "synopsis": "Shadows over Lyra explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9780464747480",
+    "publicationdate": "2000-08-14"
+  },
+  {
+    "id": 84,
+    "authorId": 17,
+    "title": "Echoes of Garden",
+    "synopsis": "In Echoes of Garden, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9781496372930",
+    "publicationdate": "2003-05-10"
+  },
+  {
+    "id": 85,
+    "authorId": 17,
+    "title": "Echoes of Throne",
+    "synopsis": "Echoes of Throne explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9783018292515",
+    "publicationdate": "1963-02-23"
+  },
+  {
+    "id": 86,
+    "authorId": 18,
+    "title": "Beyond the River",
+    "synopsis": "A sweeping narrative, Beyond the River charts the journey of unlikely allies forging a new destiny.",
+    "isbn": "9784225645642",
+    "publicationdate": "1975-05-22"
+  },
+  {
+    "id": 87,
+    "authorId": 18,
+    "title": "Dreams of a Obsidian Mirror",
+    "synopsis": "Dreams of a Obsidian Mirror follows a blazing protagonist who must reconcile past secrets with a perilous future.",
+    "isbn": "9786777590919",
+    "publicationdate": "2003-05-09"
+  },
+  {
+    "id": 88,
+    "authorId": 18,
+    "title": "Beyond the Storm",
+    "synopsis": "Set in Tempest, Beyond the Storm unravels the mystery surrounding an ancient artifact and the power it bestows.",
+    "isbn": "9783412075377",
+    "publicationdate": "2005-01-20"
+  },
+  {
+    "id": 89,
+    "authorId": 18,
+    "title": "Whispers in the Serapha",
+    "synopsis": "Set in Galen, Whispers in the Serapha unravels the mystery surrounding an ancient artifact and the power it bestows.",
+    "isbn": "9780890219497",
+    "publicationdate": "1950-12-09"
+  },
+  {
+    "id": 90,
+    "authorId": 18,
+    "title": "Chronicles of the Brilliant Forest",
+    "synopsis": "Set in Elysian, Chronicles of the Brilliant Forest unravels the mystery surrounding an ancient artifact and the power it bestows.",
+    "isbn": "9786240124476",
+    "publicationdate": "1999-08-28"
+  },
+  {
+    "id": 91,
+    "authorId": 19,
+    "title": "Shadows over Nymera",
+    "synopsis": "In Shadows over Nymera, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9784430938570",
+    "publicationdate": "2022-04-05"
+  },
+  {
+    "id": 92,
+    "authorId": 19,
+    "title": "Whispers in the Caligo",
+    "synopsis": "In Whispers in the Caligo, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9782654321408",
+    "publicationdate": "1992-11-29"
+  },
+  {
+    "id": 93,
+    "authorId": 19,
+    "title": "Into the Brilliant Verdance",
+    "synopsis": "In Into the Brilliant Verdance, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9783525477520",
+    "publicationdate": "1967-09-24"
+  },
+  {
+    "id": 94,
+    "authorId": 19,
+    "title": "Whispers in the Verdance",
+    "synopsis": "In Whispers in the Verdance, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9780162371197",
+    "publicationdate": "1978-09-21"
+  },
+  {
+    "id": 95,
+    "authorId": 19,
+    "title": "Dreams of a Radiant River",
+    "synopsis": "Dreams of a Radiant River explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9781087579577",
+    "publicationdate": "1955-08-10"
+  },
+  {
+    "id": 96,
+    "authorId": 20,
+    "title": "Last Eclipse in Eirene",
+    "synopsis": "Last Eclipse in Eirene explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9782931866499",
+    "publicationdate": "2019-03-19"
+  },
+  {
+    "id": 97,
+    "authorId": 20,
+    "title": "Heir of Serapha",
+    "synopsis": "In Heir of Serapha, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9784833830251",
+    "publicationdate": "2009-12-14"
+  },
+  {
+    "id": 98,
+    "authorId": 20,
+    "title": "The Shattered Covenant",
+    "synopsis": "The Shattered Covenant follows a spectral protagonist who must reconcile past secrets with a perilous future.",
+    "isbn": "9787901778548",
+    "publicationdate": "1974-02-24"
+  },
+  {
+    "id": 99,
+    "authorId": 20,
+    "title": "Beyond the Chronicle",
+    "synopsis": "In Beyond the Chronicle, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9785362254196",
+    "publicationdate": "1998-12-03"
+  },
+  {
+    "id": 100,
+    "authorId": 20,
+    "title": "The Luminous Voyage",
+    "synopsis": "A sweeping narrative, The Luminous Voyage charts the journey of unlikely allies forging a new destiny.",
+    "isbn": "9781204623503",
+    "publicationdate": "1996-10-05"
+  },
+  {
+    "id": 101,
+    "authorId": 21,
+    "title": "Chronicles of the Feathered Harbor",
+    "synopsis": "Chronicles of the Feathered Harbor explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9788215113246",
+    "publicationdate": "2000-03-17"
+  },
+  {
+    "id": 102,
+    "authorId": 21,
+    "title": "Echoes of Eclipse",
+    "synopsis": "Set in Elysian, Echoes of Eclipse unravels the mystery surrounding an ancient artifact and the power it bestows.",
+    "isbn": "9786211160259",
+    "publicationdate": "1970-04-02"
+  },
+  {
+    "id": 103,
+    "authorId": 21,
+    "title": "Into the Brilliant Elysian",
+    "synopsis": "Into the Brilliant Elysian follows a golden protagonist who must reconcile past secrets with a perilous future.",
+    "isbn": "9780018371150",
+    "publicationdate": "1957-01-09"
+  },
+  {
+    "id": 104,
+    "authorId": 21,
+    "title": "Last Odyssey in Zephyria",
+    "synopsis": "A sweeping narrative, Last Odyssey in Zephyria charts the journey of unlikely allies forging a new destiny.",
+    "isbn": "9787160528552",
+    "publicationdate": "1976-11-10"
+  },
+  {
+    "id": 105,
+    "authorId": 21,
+    "title": "Chronicles of the Midnight Crescent",
+    "synopsis": "Set in Galen, Chronicles of the Midnight Crescent unravels the mystery surrounding an ancient artifact and the power it bestows.",
+    "isbn": "9787164085694",
+    "publicationdate": "2000-10-08"
+  },
+  {
+    "id": 106,
+    "authorId": 22,
+    "title": "Last Heir in Verdance",
+    "synopsis": "In Last Heir in Verdance, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9784813652423",
+    "publicationdate": "1996-07-17"
+  },
+  {
+    "id": 107,
+    "authorId": 22,
+    "title": "Whispers in the Orion",
+    "synopsis": "In Whispers in the Orion, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9780315067268",
+    "publicationdate": "1994-02-28"
+  },
+  {
+    "id": 108,
+    "authorId": 22,
+    "title": "Chronicles of the Restless Forest",
+    "synopsis": "Chronicles of the Restless Forest follows a emerald protagonist who must reconcile past secrets with a perilous future.",
+    "isbn": "9787643536188",
+    "publicationdate": "1960-06-10"
+  },
+  {
+    "id": 109,
+    "authorId": 22,
+    "title": "Beyond the Masquerade",
+    "synopsis": "Beyond the Masquerade follows a blazing protagonist who must reconcile past secrets with a perilous future.",
+    "isbn": "9780717149243",
+    "publicationdate": "2023-04-04"
+  },
+  {
+    "id": 110,
+    "authorId": 22,
+    "title": "Odyssey of Orion",
+    "synopsis": "A sweeping narrative, Odyssey of Orion charts the journey of unlikely allies forging a new destiny.",
+    "isbn": "9782278942824",
+    "publicationdate": "2021-01-07"
+  },
+  {
+    "id": 111,
+    "authorId": 23,
+    "title": "Shadows over Orion",
+    "synopsis": "Set in Aether, Shadows over Orion unravels the mystery surrounding an ancient artifact and the power it bestows.",
+    "isbn": "9782545280974",
+    "publicationdate": "1950-08-11"
+  },
+  {
+    "id": 112,
+    "authorId": 23,
+    "title": "Dreams of a Eternal Wharf",
+    "synopsis": "In Dreams of a Eternal Wharf, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9788454816718",
+    "publicationdate": "2021-08-04"
+  },
+  {
+    "id": 113,
+    "authorId": 23,
+    "title": "Shadows over Arcadia",
+    "synopsis": "In Shadows over Arcadia, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9786513653038",
+    "publicationdate": "1952-01-29"
+  },
+  {
+    "id": 114,
+    "authorId": 23,
+    "title": "Paradox of Caelum",
+    "synopsis": "In Paradox of Caelum, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9784282350856",
+    "publicationdate": "1961-11-03"
+  },
+  {
+    "id": 115,
+    "authorId": 23,
+    "title": "Beacon of Lunaris",
+    "synopsis": "Set in Tempest, Beacon of Lunaris unravels the mystery surrounding an ancient artifact and the power it bestows.",
+    "isbn": "9785487705310",
+    "publicationdate": "1977-04-14"
+  },
+  {
+    "id": 116,
+    "authorId": 24,
+    "title": "Forest of Lunaris",
+    "synopsis": "In Forest of Lunaris, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9784332560600",
+    "publicationdate": "2012-09-28"
+  },
+  {
+    "id": 117,
+    "authorId": 24,
+    "title": "Chronicles of the Emerald Archive",
+    "synopsis": "Chronicles of the Emerald Archive explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9788260600381",
+    "publicationdate": "1978-02-10"
+  },
+  {
+    "id": 118,
+    "authorId": 24,
+    "title": "Compass of Tempest",
+    "synopsis": "In Compass of Tempest, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9784768080924",
+    "publicationdate": "1968-05-24"
+  },
+  {
+    "id": 119,
+    "authorId": 24,
+    "title": "Into the Silent Verdance",
+    "synopsis": "Into the Silent Verdance explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9789607463841",
+    "publicationdate": "1985-03-25"
+  },
+  {
+    "id": 120,
+    "authorId": 24,
+    "title": "Whispers in the Galen",
+    "synopsis": "Whispers in the Galen explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9785383601711",
+    "publicationdate": "2012-03-10"
+  },
+  {
+    "id": 121,
+    "authorId": 25,
+    "title": "Into the Silent Orion",
+    "synopsis": "Into the Silent Orion explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9786268564872",
+    "publicationdate": "1971-08-14"
+  },
+  {
+    "id": 122,
+    "authorId": 25,
+    "title": "Beyond the Odyssey",
+    "synopsis": "In Beyond the Odyssey, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9780673762592",
+    "publicationdate": "1953-10-01"
+  },
+  {
+    "id": 123,
+    "authorId": 25,
+    "title": "Shadows over Aurora",
+    "synopsis": "Set in Vesper, Shadows over Aurora unravels the mystery surrounding an ancient artifact and the power it bestows.",
+    "isbn": "9786441963888",
+    "publicationdate": "1979-07-19"
+  },
+  {
+    "id": 124,
+    "authorId": 25,
+    "title": "Echoes of Voyage",
+    "synopsis": "In Echoes of Voyage, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9787859763061",
+    "publicationdate": "1981-09-27"
+  },
+  {
+    "id": 125,
+    "authorId": 25,
+    "title": "The Forgotten Compass",
+    "synopsis": "The Forgotten Compass explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9787965049120",
+    "publicationdate": "1952-05-26"
+  },
+  {
+    "id": 126,
+    "authorId": 26,
+    "title": "Constellation of Caelum",
+    "synopsis": "A sweeping narrative, Constellation of Caelum charts the journey of unlikely allies forging a new destiny.",
+    "isbn": "9789068666770",
+    "publicationdate": "1966-11-15"
+  },
+  {
+    "id": 127,
+    "authorId": 26,
+    "title": "Chronicles of the Midnight Mirror",
+    "synopsis": "Chronicles of the Midnight Mirror follows a spectral protagonist who must reconcile past secrets with a perilous future.",
+    "isbn": "9788931354018",
+    "publicationdate": "1958-01-07"
+  },
+  {
+    "id": 128,
+    "authorId": 26,
+    "title": "Dreams of a Golden Wharf",
+    "synopsis": "Dreams of a Golden Wharf follows a luminous protagonist who must reconcile past secrets with a perilous future.",
+    "isbn": "9783384682902",
+    "publicationdate": "1978-03-10"
+  },
+  {
+    "id": 129,
+    "authorId": 26,
+    "title": "Into the Shattered Nymera",
+    "synopsis": "In Into the Shattered Nymera, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9781612424607",
+    "publicationdate": "2010-11-07"
+  },
+  {
+    "id": 130,
+    "authorId": 26,
+    "title": "Echoes of Harbor",
+    "synopsis": "In Echoes of Harbor, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9784295530439",
+    "publicationdate": "1958-10-13"
+  },
+  {
+    "id": 131,
+    "authorId": 27,
+    "title": "Echoes of Beacon",
+    "synopsis": "A sweeping narrative, Echoes of Beacon charts the journey of unlikely allies forging a new destiny.",
+    "isbn": "9788725893491",
+    "publicationdate": "1982-12-03"
+  },
+  {
+    "id": 132,
+    "authorId": 27,
+    "title": "Whispers in the Halcyon",
+    "synopsis": "Whispers in the Halcyon follows a vast protagonist who must reconcile past secrets with a perilous future.",
+    "isbn": "9789462082611",
+    "publicationdate": "1958-03-31"
+  },
+  {
+    "id": 133,
+    "authorId": 27,
+    "title": "Shadows over Aether",
+    "synopsis": "Shadows over Aether explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9784897321467",
+    "publicationdate": "1997-09-27"
+  },
+  {
+    "id": 134,
+    "authorId": 27,
+    "title": "Beyond the Crescent",
+    "synopsis": "Beyond the Crescent follows a restless protagonist who must reconcile past secrets with a perilous future.",
+    "isbn": "9782391962930",
+    "publicationdate": "1976-08-04"
+  },
+  {
+    "id": 135,
+    "authorId": 27,
+    "title": "Mirror of Eirene",
+    "synopsis": "Set in Serapha, Mirror of Eirene unravels the mystery surrounding an ancient artifact and the power it bestows.",
+    "isbn": "9788385684479",
+    "publicationdate": "1989-05-12"
+  },
+  {
+    "id": 136,
+    "authorId": 28,
+    "title": "Dreams of a Spectral Paradox",
+    "synopsis": "Dreams of a Spectral Paradox explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9787836977050",
+    "publicationdate": "1986-07-22"
+  },
+  {
+    "id": 137,
+    "authorId": 28,
+    "title": "Into the Wandering Serapha",
+    "synopsis": "Set in Lunaris, Into the Wandering Serapha unravels the mystery surrounding an ancient artifact and the power it bestows.",
+    "isbn": "9784935635507",
+    "publicationdate": "1961-09-29"
+  },
+  {
+    "id": 138,
+    "authorId": 28,
+    "title": "Whispers in the Nymera",
+    "synopsis": "Whispers in the Nymera follows a hidden protagonist who must reconcile past secrets with a perilous future.",
+    "isbn": "9786916142884",
+    "publicationdate": "1989-04-04"
+  },
+  {
+    "id": 139,
+    "authorId": 28,
+    "title": "The Midnight Legacy",
+    "synopsis": "In The Midnight Legacy, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9783684556852",
+    "publicationdate": "2014-06-01"
+  },
+  {
+    "id": 140,
+    "authorId": 28,
+    "title": "The Blazing Sky",
+    "synopsis": "Set in Arcadia, The Blazing Sky unravels the mystery surrounding an ancient artifact and the power it bestows.",
+    "isbn": "9782540370596",
+    "publicationdate": "1996-07-26"
+  },
+  {
+    "id": 141,
+    "authorId": 29,
+    "title": "Shadows over Caelum",
+    "synopsis": "In Shadows over Caelum, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9782887625329",
+    "publicationdate": "1952-09-26"
+  },
+  {
+    "id": 142,
+    "authorId": 29,
+    "title": "Dreams of a Emerald Beacon",
+    "synopsis": "A sweeping narrative, Dreams of a Emerald Beacon charts the journey of unlikely allies forging a new destiny.",
+    "isbn": "9789224989104",
+    "publicationdate": "1995-03-30"
+  },
+  {
+    "id": 143,
+    "authorId": 29,
+    "title": "Last Crescent in Halcyon",
+    "synopsis": "In Last Crescent in Halcyon, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9789537142319",
+    "publicationdate": "1985-01-20"
+  },
+  {
+    "id": 144,
+    "authorId": 29,
+    "title": "Beyond the Voyage",
+    "synopsis": "Beyond the Voyage follows a radiant protagonist who must reconcile past secrets with a perilous future.",
+    "isbn": "9785019760301",
+    "publicationdate": "2020-07-04"
+  },
+  {
+    "id": 145,
+    "authorId": 29,
+    "title": "Echoes of Paradox",
+    "synopsis": "Echoes of Paradox follows a hidden protagonist who must reconcile past secrets with a perilous future.",
+    "isbn": "9785085595931",
+    "publicationdate": "1966-12-11"
+  },
+  {
+    "id": 146,
+    "authorId": 30,
+    "title": "Citadel of Solace",
+    "synopsis": "Citadel of Solace explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9785669173254",
+    "publicationdate": "1991-10-05"
+  },
+  {
+    "id": 147,
+    "authorId": 30,
+    "title": "Chronicles of the Whispering Odyssey",
+    "synopsis": "Set in Arcadia, Chronicles of the Whispering Odyssey unravels the mystery surrounding an ancient artifact and the power it bestows.",
+    "isbn": "9788395588102",
+    "publicationdate": "2023-09-28"
+  },
+  {
+    "id": 148,
+    "authorId": 30,
+    "title": "Into the Secret Lunaris",
+    "synopsis": "Into the Secret Lunaris explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9785576523797",
+    "publicationdate": "1994-06-04"
+  },
+  {
+    "id": 149,
+    "authorId": 30,
+    "title": "Last Eclipse in Serapha",
+    "synopsis": "Last Eclipse in Serapha explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9785408107587",
+    "publicationdate": "1959-06-12"
+  },
+  {
+    "id": 150,
+    "authorId": 30,
+    "title": "Dreams of a Whispering Forest",
+    "synopsis": "In Dreams of a Whispering Forest, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9787488472230",
+    "publicationdate": "2006-04-18"
+  },
+  {
+    "id": 151,
+    "authorId": 31,
+    "title": "Last Masquerade in Eirene",
+    "synopsis": "Set in Meridian, Last Masquerade in Eirene unravels the mystery surrounding an ancient artifact and the power it bestows.",
+    "isbn": "9781208548333",
+    "publicationdate": "2000-06-27"
+  },
+  {
+    "id": 152,
+    "authorId": 31,
+    "title": "Last Voyage in Galen",
+    "synopsis": "Last Voyage in Galen explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9784597784865",
+    "publicationdate": "2001-11-14"
+  },
+  {
+    "id": 153,
+    "authorId": 31,
+    "title": "Beacon of Halcyon",
+    "synopsis": "A sweeping narrative, Beacon of Halcyon charts the journey of unlikely allies forging a new destiny.",
+    "isbn": "9786839603005",
+    "publicationdate": "2020-07-08"
+  },
+  {
+    "id": 154,
+    "authorId": 31,
+    "title": "Dreams of a Restless Citadel",
+    "synopsis": "Dreams of a Restless Citadel follows a emerald protagonist who must reconcile past secrets with a perilous future.",
+    "isbn": "9788237531951",
+    "publicationdate": "1969-01-28"
+  },
+  {
+    "id": 155,
+    "authorId": 31,
+    "title": "The Hidden Odyssey",
+    "synopsis": "The Hidden Odyssey explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9781624163612",
+    "publicationdate": "1964-01-28"
+  },
+  {
+    "id": 156,
+    "authorId": 32,
+    "title": "Shadows over Galen",
+    "synopsis": "A sweeping narrative, Shadows over Galen charts the journey of unlikely allies forging a new destiny.",
+    "isbn": "9783326164094",
+    "publicationdate": "1964-12-25"
+  },
+  {
+    "id": 157,
+    "authorId": 32,
+    "title": "Into the Secret Halcyon",
+    "synopsis": "A sweeping narrative, Into the Secret Halcyon charts the journey of unlikely allies forging a new destiny.",
+    "isbn": "9786642105105",
+    "publicationdate": "2022-10-01"
+  },
+  {
+    "id": 158,
+    "authorId": 32,
+    "title": "The Restless Garden",
+    "synopsis": "The Restless Garden explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9788839368349",
+    "publicationdate": "1958-03-08"
+  },
+  {
+    "id": 159,
+    "authorId": 32,
+    "title": "Chronicles of the Secret Storm",
+    "synopsis": "A sweeping narrative, Chronicles of the Secret Storm charts the journey of unlikely allies forging a new destiny.",
+    "isbn": "9783256263571",
+    "publicationdate": "2019-11-12"
+  },
+  {
+    "id": 160,
+    "authorId": 32,
+    "title": "Shadows over Eirene",
+    "synopsis": "Shadows over Eirene explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9780085571630",
+    "publicationdate": "1983-07-12"
+  },
+  {
+    "id": 161,
+    "authorId": 33,
+    "title": "The Emerald Wharf",
+    "synopsis": "The Emerald Wharf follows a crimson protagonist who must reconcile past secrets with a perilous future.",
+    "isbn": "9789673871226",
+    "publicationdate": "1991-08-28"
+  },
+  {
+    "id": 162,
+    "authorId": 33,
+    "title": "Whispers in the Caelum",
+    "synopsis": "A sweeping narrative, Whispers in the Caelum charts the journey of unlikely allies forging a new destiny.",
+    "isbn": "9788354819376",
+    "publicationdate": "1997-10-30"
+  },
+  {
+    "id": 163,
+    "authorId": 33,
+    "title": "Legacy of Eirene",
+    "synopsis": "Legacy of Eirene follows a velvet protagonist who must reconcile past secrets with a perilous future.",
+    "isbn": "9781047939327",
+    "publicationdate": "1983-08-20"
+  },
+  {
+    "id": 164,
+    "authorId": 33,
+    "title": "Shadows over Meridian",
+    "synopsis": "Set in Lyra, Shadows over Meridian unravels the mystery surrounding an ancient artifact and the power it bestows.",
+    "isbn": "9789299151789",
+    "publicationdate": "2006-05-27"
+  },
+  {
+    "id": 165,
+    "authorId": 33,
+    "title": "Last Paradox in Lunaris",
+    "synopsis": "In Last Paradox in Lunaris, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9784656381850",
+    "publicationdate": "2004-11-16"
+  },
+  {
+    "id": 166,
+    "authorId": 34,
+    "title": "The Blazing Odyssey",
+    "synopsis": "In The Blazing Odyssey, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9785230158529",
+    "publicationdate": "1959-01-21"
+  },
+  {
+    "id": 167,
+    "authorId": 34,
+    "title": "Whispers in the Vesper",
+    "synopsis": "In Whispers in the Vesper, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9781505971151",
+    "publicationdate": "2006-01-31"
+  },
+  {
+    "id": 168,
+    "authorId": 34,
+    "title": "Chronicles of the Wandering Heir",
+    "synopsis": "A sweeping narrative, Chronicles of the Wandering Heir charts the journey of unlikely allies forging a new destiny.",
+    "isbn": "9786240127184",
+    "publicationdate": "2007-07-30"
+  },
+  {
+    "id": 169,
+    "authorId": 34,
+    "title": "The Shattered River",
+    "synopsis": "Set in Serapha, The Shattered River unravels the mystery surrounding an ancient artifact and the power it bestows.",
+    "isbn": "9784715537730",
+    "publicationdate": "2017-06-28"
+  },
+  {
+    "id": 170,
+    "authorId": 34,
+    "title": "Dreams of a Golden Crescent",
+    "synopsis": "Dreams of a Golden Crescent follows a fallen protagonist who must reconcile past secrets with a perilous future.",
+    "isbn": "9789330170024",
+    "publicationdate": "2002-07-22"
+  },
+  {
+    "id": 171,
+    "authorId": 35,
+    "title": "Beyond the Sky",
+    "synopsis": "Set in Tempest, Beyond the Sky unravels the mystery surrounding an ancient artifact and the power it bestows.",
+    "isbn": "9785695386542",
+    "publicationdate": "2012-09-27"
+  },
+  {
+    "id": 172,
+    "authorId": 35,
+    "title": "The Eternal Legacy",
+    "synopsis": "The Eternal Legacy follows a shattered protagonist who must reconcile past secrets with a perilous future.",
+    "isbn": "9782417458086",
+    "publicationdate": "2008-02-05"
+  },
+  {
+    "id": 173,
+    "authorId": 35,
+    "title": "The Shattered Constellation",
+    "synopsis": "A sweeping narrative, The Shattered Constellation charts the journey of unlikely allies forging a new destiny.",
+    "isbn": "9782440635345",
+    "publicationdate": "1976-12-31"
+  },
+  {
+    "id": 174,
+    "authorId": 35,
+    "title": "Last Odyssey in Tempest",
+    "synopsis": "Last Odyssey in Tempest explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9788121627065",
+    "publicationdate": "1960-02-28"
+  },
+  {
+    "id": 175,
+    "authorId": 35,
+    "title": "Shadows over Verdance",
+    "synopsis": "Set in Orion, Shadows over Verdance unravels the mystery surrounding an ancient artifact and the power it bestows.",
+    "isbn": "9789577070054",
+    "publicationdate": "2010-05-29"
+  },
+  {
+    "id": 176,
+    "authorId": 36,
+    "title": "Beyond the Compass",
+    "synopsis": "Beyond the Compass follows a eternal protagonist who must reconcile past secrets with a perilous future.",
+    "isbn": "9784153063636",
+    "publicationdate": "2019-02-23"
+  },
+  {
+    "id": 177,
+    "authorId": 36,
+    "title": "Echoes of Wharf",
+    "synopsis": "Echoes of Wharf follows a blazing protagonist who must reconcile past secrets with a perilous future.",
+    "isbn": "9787902284557",
+    "publicationdate": "2001-06-24"
+  },
+  {
+    "id": 178,
+    "authorId": 36,
+    "title": "Last Labyrinth in Caligo",
+    "synopsis": "In Last Labyrinth in Caligo, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9786005629161",
+    "publicationdate": "2006-06-17"
+  },
+  {
+    "id": 179,
+    "authorId": 36,
+    "title": "Echoes of Labyrinth",
+    "synopsis": "Set in Caelum, Echoes of Labyrinth unravels the mystery surrounding an ancient artifact and the power it bestows.",
+    "isbn": "9784824450776",
+    "publicationdate": "1966-02-06"
+  },
+  {
+    "id": 180,
+    "authorId": 36,
+    "title": "Last Garden in Lyra",
+    "synopsis": "Set in Nymera, Last Garden in Lyra unravels the mystery surrounding an ancient artifact and the power it bestows.",
+    "isbn": "9787922462943",
+    "publicationdate": "1965-08-24"
+  },
+  {
+    "id": 181,
+    "authorId": 37,
+    "title": "Dreams of a Vast Song",
+    "synopsis": "Dreams of a Vast Song follows a velvet protagonist who must reconcile past secrets with a perilous future.",
+    "isbn": "9785073232094",
+    "publicationdate": "1955-05-07"
+  },
+  {
+    "id": 182,
+    "authorId": 37,
+    "title": "Last Song in Caelum",
+    "synopsis": "A sweeping narrative, Last Song in Caelum charts the journey of unlikely allies forging a new destiny.",
+    "isbn": "9786555739581",
+    "publicationdate": "1952-04-12"
+  },
+  {
+    "id": 183,
+    "authorId": 37,
+    "title": "Beyond the Wharf",
+    "synopsis": "Beyond the Wharf follows a vast protagonist who must reconcile past secrets with a perilous future.",
+    "isbn": "9789187836505",
+    "publicationdate": "2005-03-18"
+  },
+  {
+    "id": 184,
+    "authorId": 37,
+    "title": "Beyond the Paradox",
+    "synopsis": "Set in Galen, Beyond the Paradox unravels the mystery surrounding an ancient artifact and the power it bestows.",
+    "isbn": "9788230188804",
+    "publicationdate": "1960-01-30"
+  },
+  {
+    "id": 185,
+    "authorId": 37,
+    "title": "Dreams of a Secret Chronicle",
+    "synopsis": "Dreams of a Secret Chronicle explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9786660640687",
+    "publicationdate": "2002-09-01"
+  },
+  {
+    "id": 186,
+    "authorId": 38,
+    "title": "Beyond the Beacon",
+    "synopsis": "In Beyond the Beacon, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9785466420740",
+    "publicationdate": "1991-04-03"
+  },
+  {
+    "id": 187,
+    "authorId": 38,
+    "title": "Last Tapestry in Orion",
+    "synopsis": "Last Tapestry in Orion explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9781058835079",
+    "publicationdate": "2009-04-12"
+  },
+  {
+    "id": 188,
+    "authorId": 38,
+    "title": "Whispers in the Meridian",
+    "synopsis": "Whispers in the Meridian explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9780894013713",
+    "publicationdate": "1950-11-03"
+  },
+  {
+    "id": 189,
+    "authorId": 38,
+    "title": "Chronicles of the Feathered Crescent",
+    "synopsis": "Set in Lunaris, Chronicles of the Feathered Crescent unravels the mystery surrounding an ancient artifact and the power it bestows.",
+    "isbn": "9782006421736",
+    "publicationdate": "1952-07-14"
+  },
+  {
+    "id": 190,
+    "authorId": 38,
+    "title": "Beyond the Song",
+    "synopsis": "Beyond the Song explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9789659859206",
+    "publicationdate": "1982-09-10"
+  },
+  {
+    "id": 191,
+    "authorId": 39,
+    "title": "Beyond the Forest",
+    "synopsis": "Set in Galen, Beyond the Forest unravels the mystery surrounding an ancient artifact and the power it bestows.",
+    "isbn": "9784231152690",
+    "publicationdate": "1956-03-27"
+  },
+  {
+    "id": 192,
+    "authorId": 39,
+    "title": "Into the Whispering Nymera",
+    "synopsis": "In Into the Whispering Nymera, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9789699545174",
+    "publicationdate": "1995-01-02"
+  },
+  {
+    "id": 193,
+    "authorId": 39,
+    "title": "The Midnight Crescent",
+    "synopsis": "Set in Caligo, The Midnight Crescent unravels the mystery surrounding an ancient artifact and the power it bestows.",
+    "isbn": "9788980027274",
+    "publicationdate": "1978-04-01"
+  },
+  {
+    "id": 194,
+    "authorId": 39,
+    "title": "Dreams of a Spectral Archive",
+    "synopsis": "A sweeping narrative, Dreams of a Spectral Archive charts the journey of unlikely allies forging a new destiny.",
+    "isbn": "9781861227066",
+    "publicationdate": "2010-04-10"
+  },
+  {
+    "id": 195,
+    "authorId": 39,
+    "title": "Dreams of a Obsidian Beacon",
+    "synopsis": "A sweeping narrative, Dreams of a Obsidian Beacon charts the journey of unlikely allies forging a new destiny.",
+    "isbn": "9781555873941",
+    "publicationdate": "1994-09-18"
+  },
+  {
+    "id": 196,
+    "authorId": 40,
+    "title": "Beyond the Mirror",
+    "synopsis": "Set in Halcyon, Beyond the Mirror unravels the mystery surrounding an ancient artifact and the power it bestows.",
+    "isbn": "9780960663108",
+    "publicationdate": "1959-05-12"
+  },
+  {
+    "id": 197,
+    "authorId": 40,
+    "title": "The Brilliant Citadel",
+    "synopsis": "The Brilliant Citadel explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9786225066196",
+    "publicationdate": "1990-03-27"
+  },
+  {
+    "id": 198,
+    "authorId": 40,
+    "title": "Into the Secret Galen",
+    "synopsis": "A sweeping narrative, Into the Secret Galen charts the journey of unlikely allies forging a new destiny.",
+    "isbn": "9782331478521",
+    "publicationdate": "2010-07-19"
+  },
+  {
+    "id": 199,
+    "authorId": 40,
+    "title": "Beyond the Covenant",
+    "synopsis": "Beyond the Covenant explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9784962337595",
+    "publicationdate": "1979-06-24"
+  },
+  {
+    "id": 200,
+    "authorId": 40,
+    "title": "Whispers in the Lyra",
+    "synopsis": "Whispers in the Lyra explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9789580026580",
+    "publicationdate": "1985-03-07"
+  },
+  {
+    "id": 201,
+    "authorId": 41,
+    "title": "Chronicles of the Luminous River",
+    "synopsis": "Chronicles of the Luminous River explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9788726774959",
+    "publicationdate": "1984-12-03"
+  },
+  {
+    "id": 202,
+    "authorId": 41,
+    "title": "Chronicles of the Eternal Paradox",
+    "synopsis": "A sweeping narrative, Chronicles of the Eternal Paradox charts the journey of unlikely allies forging a new destiny.",
+    "isbn": "9783766451558",
+    "publicationdate": "2009-04-03"
+  },
+  {
+    "id": 203,
+    "authorId": 41,
+    "title": "Chronicles of the Emerald Harbor",
+    "synopsis": "Set in Eirene, Chronicles of the Emerald Harbor unravels the mystery surrounding an ancient artifact and the power it bestows.",
+    "isbn": "9783671719870",
+    "publicationdate": "1964-01-17"
+  },
+  {
+    "id": 204,
+    "authorId": 41,
+    "title": "Chronicles of the Shattered Crescent",
+    "synopsis": "Chronicles of the Shattered Crescent follows a silent protagonist who must reconcile past secrets with a perilous future.",
+    "isbn": "9783163563099",
+    "publicationdate": "2021-08-10"
+  },
+  {
+    "id": 205,
+    "authorId": 41,
+    "title": "Chronicles of the Eternal Covenant",
+    "synopsis": "A sweeping narrative, Chronicles of the Eternal Covenant charts the journey of unlikely allies forging a new destiny.",
+    "isbn": "9787027537830",
+    "publicationdate": "2008-05-20"
+  },
+  {
+    "id": 206,
+    "authorId": 42,
+    "title": "Whispers in the Aether",
+    "synopsis": "Set in Lunaris, Whispers in the Aether unravels the mystery surrounding an ancient artifact and the power it bestows.",
+    "isbn": "9781157532282",
+    "publicationdate": "2002-02-25"
+  },
+  {
+    "id": 207,
+    "authorId": 42,
+    "title": "Dreams of a Crimson Paradox",
+    "synopsis": "Dreams of a Crimson Paradox explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9787623089970",
+    "publicationdate": "1951-07-13"
+  },
+  {
+    "id": 208,
+    "authorId": 42,
+    "title": "Mirror of Nymera",
+    "synopsis": "In Mirror of Nymera, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9785411685889",
+    "publicationdate": "1955-03-19"
+  },
+  {
+    "id": 209,
+    "authorId": 42,
+    "title": "Beyond the Harbor",
+    "synopsis": "Set in Orion, Beyond the Harbor unravels the mystery surrounding an ancient artifact and the power it bestows.",
+    "isbn": "9783774334026",
+    "publicationdate": "1998-10-07"
+  },
+  {
+    "id": 210,
+    "authorId": 42,
+    "title": "Last Garden in Serapha",
+    "synopsis": "Last Garden in Serapha explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9780859152112",
+    "publicationdate": "2013-11-04"
+  },
+  {
+    "id": 211,
+    "authorId": 43,
+    "title": "Last Odyssey in Caligo",
+    "synopsis": "Set in Caligo, Last Odyssey in Caligo unravels the mystery surrounding an ancient artifact and the power it bestows.",
+    "isbn": "9789142001159",
+    "publicationdate": "1981-01-31"
+  },
+  {
+    "id": 212,
+    "authorId": 43,
+    "title": "The Secret Labyrinth",
+    "synopsis": "The Secret Labyrinth follows a secret protagonist who must reconcile past secrets with a perilous future.",
+    "isbn": "9788089064488",
+    "publicationdate": "1970-02-01"
+  },
+  {
+    "id": 213,
+    "authorId": 43,
+    "title": "Chronicles of the Luminous Song",
+    "synopsis": "A sweeping narrative, Chronicles of the Luminous Song charts the journey of unlikely allies forging a new destiny.",
+    "isbn": "9789930696795",
+    "publicationdate": "1987-09-04"
+  },
+  {
+    "id": 214,
+    "authorId": 43,
+    "title": "Voyage of Nymera",
+    "synopsis": "Voyage of Nymera explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9787655042494",
+    "publicationdate": "2019-01-31"
+  },
+  {
+    "id": 215,
+    "authorId": 43,
+    "title": "The Blazing Labyrinth",
+    "synopsis": "Set in Orion, The Blazing Labyrinth unravels the mystery surrounding an ancient artifact and the power it bestows.",
+    "isbn": "9788300509800",
+    "publicationdate": "1992-09-06"
+  },
+  {
+    "id": 216,
+    "authorId": 44,
+    "title": "Dreams of a Wandering Throne",
+    "synopsis": "Set in Aurora, Dreams of a Wandering Throne unravels the mystery surrounding an ancient artifact and the power it bestows.",
+    "isbn": "9785151379625",
+    "publicationdate": "1951-03-04"
+  },
+  {
+    "id": 217,
+    "authorId": 44,
+    "title": "Into the Velvet Solace",
+    "synopsis": "A sweeping narrative, Into the Velvet Solace charts the journey of unlikely allies forging a new destiny.",
+    "isbn": "9780010093484",
+    "publicationdate": "2011-03-07"
+  },
+  {
+    "id": 218,
+    "authorId": 44,
+    "title": "The Luminous Forest",
+    "synopsis": "A sweeping narrative, The Luminous Forest charts the journey of unlikely allies forging a new destiny.",
+    "isbn": "9782739372669",
+    "publicationdate": "2006-02-16"
+  },
+  {
+    "id": 219,
+    "authorId": 44,
+    "title": "Dreams of a Wandering Empire",
+    "synopsis": "Set in Aurora, Dreams of a Wandering Empire unravels the mystery surrounding an ancient artifact and the power it bestows.",
+    "isbn": "9780630127070",
+    "publicationdate": "1975-11-25"
+  },
+  {
+    "id": 220,
+    "authorId": 44,
+    "title": "Chronicles of the Brilliant Voyage",
+    "synopsis": "Chronicles of the Brilliant Voyage explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9781928172646",
+    "publicationdate": "1990-12-09"
+  },
+  {
+    "id": 221,
+    "authorId": 45,
+    "title": "The Eternal Beacon",
+    "synopsis": "Set in Lyra, The Eternal Beacon unravels the mystery surrounding an ancient artifact and the power it bestows.",
+    "isbn": "9789606452048",
+    "publicationdate": "2014-05-04"
+  },
+  {
+    "id": 222,
+    "authorId": 45,
+    "title": "Chronicles of the Shattered Archive",
+    "synopsis": "A sweeping narrative, Chronicles of the Shattered Archive charts the journey of unlikely allies forging a new destiny.",
+    "isbn": "9782008421571",
+    "publicationdate": "2007-10-05"
+  },
+  {
+    "id": 223,
+    "authorId": 45,
+    "title": "Chronicles of the Golden Mirror",
+    "synopsis": "Chronicles of the Golden Mirror explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9785178147505",
+    "publicationdate": "2014-02-09"
+  },
+  {
+    "id": 224,
+    "authorId": 45,
+    "title": "Into the Velvet Meridian",
+    "synopsis": "Into the Velvet Meridian follows a secret protagonist who must reconcile past secrets with a perilous future.",
+    "isbn": "9784606302018",
+    "publicationdate": "2017-09-20"
+  },
+  {
+    "id": 225,
+    "authorId": 45,
+    "title": "Eclipse of Eirene",
+    "synopsis": "A sweeping narrative, Eclipse of Eirene charts the journey of unlikely allies forging a new destiny.",
+    "isbn": "9787445969810",
+    "publicationdate": "1967-05-20"
+  },
+  {
+    "id": 226,
+    "authorId": 46,
+    "title": "Legacy of Arcadia",
+    "synopsis": "In Legacy of Arcadia, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9789824828193",
+    "publicationdate": "1985-05-14"
+  },
+  {
+    "id": 227,
+    "authorId": 46,
+    "title": "Whispers in the Arcadia",
+    "synopsis": "A sweeping narrative, Whispers in the Arcadia charts the journey of unlikely allies forging a new destiny.",
+    "isbn": "9782830426713",
+    "publicationdate": "1964-07-28"
+  },
+  {
+    "id": 228,
+    "authorId": 46,
+    "title": "Beyond the Heir",
+    "synopsis": "In Beyond the Heir, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9789969432634",
+    "publicationdate": "1952-08-01"
+  },
+  {
+    "id": 229,
+    "authorId": 46,
+    "title": "Into the Restless Vesper",
+    "synopsis": "In Into the Restless Vesper, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9782563025480",
+    "publicationdate": "1952-01-15"
+  },
+  {
+    "id": 230,
+    "authorId": 46,
+    "title": "Last Covenant in Aether",
+    "synopsis": "Set in Aurora, Last Covenant in Aether unravels the mystery surrounding an ancient artifact and the power it bestows.",
+    "isbn": "9781918241564",
+    "publicationdate": "1950-12-01"
+  },
+  {
+    "id": 231,
+    "authorId": 47,
+    "title": "Beyond the Throne",
+    "synopsis": "In Beyond the Throne, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9783912281037",
+    "publicationdate": "2017-12-09"
+  },
+  {
+    "id": 232,
+    "authorId": 47,
+    "title": "Forest of Arcadia",
+    "synopsis": "A sweeping narrative, Forest of Arcadia charts the journey of unlikely allies forging a new destiny.",
+    "isbn": "9781794893555",
+    "publicationdate": "2022-10-22"
+  },
+  {
+    "id": 233,
+    "authorId": 47,
+    "title": "The Brilliant Archive",
+    "synopsis": "In The Brilliant Archive, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9783993950358",
+    "publicationdate": "2000-03-11"
+  },
+  {
+    "id": 234,
+    "authorId": 47,
+    "title": "Into the Golden Aether",
+    "synopsis": "Into the Golden Aether explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9784727918250",
+    "publicationdate": "2008-09-13"
+  },
+  {
+    "id": 235,
+    "authorId": 47,
+    "title": "Into the Emerald Orion",
+    "synopsis": "Set in Caelum, Into the Emerald Orion unravels the mystery surrounding an ancient artifact and the power it bestows.",
+    "isbn": "9784389784327",
+    "publicationdate": "1983-12-05"
+  },
+  {
+    "id": 236,
+    "authorId": 48,
+    "title": "Dreams of a Wandering Masquerade",
+    "synopsis": "A sweeping narrative, Dreams of a Wandering Masquerade charts the journey of unlikely allies forging a new destiny.",
+    "isbn": "9780065619582",
+    "publicationdate": "1997-10-16"
+  },
+  {
+    "id": 237,
+    "authorId": 48,
+    "title": "Harbor of Nymera",
+    "synopsis": "Set in Meridian, Harbor of Nymera unravels the mystery surrounding an ancient artifact and the power it bestows.",
+    "isbn": "9788499216434",
+    "publicationdate": "1965-10-28"
+  },
+  {
+    "id": 238,
+    "authorId": 48,
+    "title": "Dreams of a Midnight River",
+    "synopsis": "Set in Lyra, Dreams of a Midnight River unravels the mystery surrounding an ancient artifact and the power it bestows.",
+    "isbn": "9781105658464",
+    "publicationdate": "1959-05-12"
+  },
+  {
+    "id": 239,
+    "authorId": 48,
+    "title": "Into the Vast Lyra",
+    "synopsis": "Into the Vast Lyra explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9784995895122",
+    "publicationdate": "1978-01-08"
+  },
+  {
+    "id": 240,
+    "authorId": 48,
+    "title": "Into the Restless Tempest",
+    "synopsis": "Into the Restless Tempest explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9781110450028",
+    "publicationdate": "2021-07-31"
+  },
+  {
+    "id": 241,
+    "authorId": 49,
+    "title": "Dreams of a Hidden Sky",
+    "synopsis": "Dreams of a Hidden Sky explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9787461391874",
+    "publicationdate": "1989-04-27"
+  },
+  {
+    "id": 242,
+    "authorId": 49,
+    "title": "Into the Obsidian Tempest",
+    "synopsis": "Into the Obsidian Tempest follows a wandering protagonist who must reconcile past secrets with a perilous future.",
+    "isbn": "9780474513700",
+    "publicationdate": "1993-06-25"
+  },
+  {
+    "id": 243,
+    "authorId": 49,
+    "title": "Into the Brilliant Lyra",
+    "synopsis": "Into the Brilliant Lyra follows a velvet protagonist who must reconcile past secrets with a perilous future.",
+    "isbn": "9780496519766",
+    "publicationdate": "2019-10-16"
+  },
+  {
+    "id": 244,
+    "authorId": 49,
+    "title": "Archive of Aether",
+    "synopsis": "Archive of Aether explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9789219661451",
+    "publicationdate": "2011-03-04"
+  },
+  {
+    "id": 245,
+    "authorId": 49,
+    "title": "The Wandering Heir",
+    "synopsis": "The Wandering Heir follows a fallen protagonist who must reconcile past secrets with a perilous future.",
+    "isbn": "9786677921352",
+    "publicationdate": "1997-07-23"
+  },
+  {
+    "id": 246,
+    "authorId": 50,
+    "title": "Last Constellation in Serapha",
+    "synopsis": "Set in Caelum, Last Constellation in Serapha unravels the mystery surrounding an ancient artifact and the power it bestows.",
+    "isbn": "9787999954208",
+    "publicationdate": "2007-07-17"
+  },
+  {
+    "id": 247,
+    "authorId": 50,
+    "title": "Shadows over Lunaris",
+    "synopsis": "Shadows over Lunaris explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9782525063828",
+    "publicationdate": "1959-04-12"
+  },
+  {
+    "id": 248,
+    "authorId": 50,
+    "title": "Last Reckoning in Galen",
+    "synopsis": "A sweeping narrative, Last Reckoning in Galen charts the journey of unlikely allies forging a new destiny.",
+    "isbn": "9789896481463",
+    "publicationdate": "1981-08-27"
+  },
+  {
+    "id": 249,
+    "authorId": 50,
+    "title": "Chronicles of the Luminous Crescent",
+    "synopsis": "Set in Serapha, Chronicles of the Luminous Crescent unravels the mystery surrounding an ancient artifact and the power it bestows.",
+    "isbn": "9781008632205",
+    "publicationdate": "1997-02-09"
+  },
+  {
+    "id": 250,
+    "authorId": 50,
+    "title": "Into the Whispering Caelum",
+    "synopsis": "Into the Whispering Caelum explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9782277181419",
+    "publicationdate": "2009-05-01"
+  },
+  {
+    "id": 251,
+    "authorId": 51,
+    "title": "Echoes of Empire",
+    "synopsis": "In Echoes of Empire, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9780467961191",
+    "publicationdate": "2015-05-25"
+  },
+  {
+    "id": 252,
+    "authorId": 51,
+    "title": "The Wandering Paradox",
+    "synopsis": "In The Wandering Paradox, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9789336605007",
+    "publicationdate": "2021-12-12"
+  },
+  {
+    "id": 253,
+    "authorId": 51,
+    "title": "Into the Whispering Meridian",
+    "synopsis": "A sweeping narrative, Into the Whispering Meridian charts the journey of unlikely allies forging a new destiny.",
+    "isbn": "9787706583220",
+    "publicationdate": "1984-03-16"
+  },
+  {
+    "id": 254,
+    "authorId": 51,
+    "title": "Beacon of Arcadia",
+    "synopsis": "In Beacon of Arcadia, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9786748766501",
+    "publicationdate": "1965-03-02"
+  },
+  {
+    "id": 255,
+    "authorId": 51,
+    "title": "Into the Golden Caelum",
+    "synopsis": "In Into the Golden Caelum, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9782303335789",
+    "publicationdate": "1965-02-13"
+  },
+  {
+    "id": 256,
+    "authorId": 52,
+    "title": "Echoes of Chronicle",
+    "synopsis": "Echoes of Chronicle explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9782392653025",
+    "publicationdate": "2010-11-02"
+  },
+  {
+    "id": 257,
+    "authorId": 52,
+    "title": "Last Compass in Eirene",
+    "synopsis": "In Last Compass in Eirene, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9784749089595",
+    "publicationdate": "2024-06-09"
+  },
+  {
+    "id": 258,
+    "authorId": 52,
+    "title": "Dreams of a Midnight Beacon",
+    "synopsis": "Set in Solace, Dreams of a Midnight Beacon unravels the mystery surrounding an ancient artifact and the power it bestows.",
+    "isbn": "9782903755806",
+    "publicationdate": "1980-10-20"
+  },
+  {
+    "id": 259,
+    "authorId": 52,
+    "title": "Beacon of Orion",
+    "synopsis": "In Beacon of Orion, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9781205493064",
+    "publicationdate": "2012-06-02"
+  },
+  {
+    "id": 260,
+    "authorId": 52,
+    "title": "The Shattered Palimpsest",
+    "synopsis": "Set in Zephyria, The Shattered Palimpsest unravels the mystery surrounding an ancient artifact and the power it bestows.",
+    "isbn": "9785914572161",
+    "publicationdate": "2000-01-18"
+  },
+  {
+    "id": 261,
+    "authorId": 53,
+    "title": "Echoes of Song",
+    "synopsis": "Echoes of Song explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9789899898716",
+    "publicationdate": "1956-02-22"
+  },
+  {
+    "id": 262,
+    "authorId": 53,
+    "title": "Whispers in the Aurora",
+    "synopsis": "Set in Eirene, Whispers in the Aurora unravels the mystery surrounding an ancient artifact and the power it bestows.",
+    "isbn": "9789327661287",
+    "publicationdate": "1983-06-23"
+  },
+  {
+    "id": 263,
+    "authorId": 53,
+    "title": "Beyond the Garden",
+    "synopsis": "In Beyond the Garden, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9780126434566",
+    "publicationdate": "1972-10-16"
+  },
+  {
+    "id": 264,
+    "authorId": 53,
+    "title": "Into the Wandering Elysian",
+    "synopsis": "Into the Wandering Elysian explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9787122776121",
+    "publicationdate": "1985-07-27"
+  },
+  {
+    "id": 265,
+    "authorId": 53,
+    "title": "Last Song in Nymera",
+    "synopsis": "Last Song in Nymera follows a silent protagonist who must reconcile past secrets with a perilous future.",
+    "isbn": "9783472818912",
+    "publicationdate": "1999-10-03"
+  },
+  {
+    "id": 266,
+    "authorId": 54,
+    "title": "Legacy of Aether",
+    "synopsis": "Legacy of Aether explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9782856920575",
+    "publicationdate": "2002-03-04"
+  },
+  {
+    "id": 267,
+    "authorId": 54,
+    "title": "Last Garden in Aurora",
+    "synopsis": "Set in Halcyon, Last Garden in Aurora unravels the mystery surrounding an ancient artifact and the power it bestows.",
+    "isbn": "9785165921560",
+    "publicationdate": "2009-05-02"
+  },
+  {
+    "id": 268,
+    "authorId": 54,
+    "title": "The Forgotten Legacy",
+    "synopsis": "Set in Caelum, The Forgotten Legacy unravels the mystery surrounding an ancient artifact and the power it bestows.",
+    "isbn": "9788041943435",
+    "publicationdate": "2024-10-18"
+  },
+  {
+    "id": 269,
+    "authorId": 54,
+    "title": "The Midnight Covenant",
+    "synopsis": "A sweeping narrative, The Midnight Covenant charts the journey of unlikely allies forging a new destiny.",
+    "isbn": "9784179637150",
+    "publicationdate": "1998-07-28"
+  },
+  {
+    "id": 270,
+    "authorId": 54,
+    "title": "Beyond the Empire",
+    "synopsis": "Beyond the Empire explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9783068667880",
+    "publicationdate": "2001-01-01"
+  },
+  {
+    "id": 271,
+    "authorId": 55,
+    "title": "The Crimson Eclipse",
+    "synopsis": "A sweeping narrative, The Crimson Eclipse charts the journey of unlikely allies forging a new destiny.",
+    "isbn": "9789506051609",
+    "publicationdate": "1998-08-07"
+  },
+  {
+    "id": 272,
+    "authorId": 55,
+    "title": "Last Citadel in Halcyon",
+    "synopsis": "Last Citadel in Halcyon explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9789198877536",
+    "publicationdate": "1987-07-08"
+  },
+  {
+    "id": 273,
+    "authorId": 55,
+    "title": "Reckoning of Aurora",
+    "synopsis": "Set in Halcyon, Reckoning of Aurora unravels the mystery surrounding an ancient artifact and the power it bestows.",
+    "isbn": "9782957135984",
+    "publicationdate": "1982-09-04"
+  },
+  {
+    "id": 274,
+    "authorId": 55,
+    "title": "Last Masquerade in Arcadia",
+    "synopsis": "Last Masquerade in Arcadia explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9786612516617",
+    "publicationdate": "2018-06-02"
+  },
+  {
+    "id": 275,
+    "authorId": 55,
+    "title": "Into the Radiant Caligo",
+    "synopsis": "A sweeping narrative, Into the Radiant Caligo charts the journey of unlikely allies forging a new destiny.",
+    "isbn": "9782252496191",
+    "publicationdate": "1956-03-30"
+  },
+  {
+    "id": 276,
+    "authorId": 56,
+    "title": "Dreams of a Obsidian Chronicle",
+    "synopsis": "Dreams of a Obsidian Chronicle follows a midnight protagonist who must reconcile past secrets with a perilous future.",
+    "isbn": "9789887545481",
+    "publicationdate": "1994-02-26"
+  },
+  {
+    "id": 277,
+    "authorId": 56,
+    "title": "Chronicle of Zephyria",
+    "synopsis": "A sweeping narrative, Chronicle of Zephyria charts the journey of unlikely allies forging a new destiny.",
+    "isbn": "9782546041974",
+    "publicationdate": "2014-01-10"
+  },
+  {
+    "id": 278,
+    "authorId": 56,
+    "title": "Last Sky in Galen",
+    "synopsis": "Last Sky in Galen explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9783392111975",
+    "publicationdate": "1954-08-10"
+  },
+  {
+    "id": 279,
+    "authorId": 56,
+    "title": "Last Tapestry in Lyra",
+    "synopsis": "In Last Tapestry in Lyra, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9785676649779",
+    "publicationdate": "2002-04-08"
+  },
+  {
+    "id": 280,
+    "authorId": 56,
+    "title": "Garden of Orion",
+    "synopsis": "Garden of Orion explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9783474836082",
+    "publicationdate": "2016-10-14"
+  },
+  {
+    "id": 281,
+    "authorId": 57,
+    "title": "Last Throne in Arcadia",
+    "synopsis": "In Last Throne in Arcadia, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9782750444799",
+    "publicationdate": "1993-04-29"
+  },
+  {
+    "id": 282,
+    "authorId": 57,
+    "title": "Chronicles of the Forgotten Beacon",
+    "synopsis": "Set in Orion, Chronicles of the Forgotten Beacon unravels the mystery surrounding an ancient artifact and the power it bestows.",
+    "isbn": "9785845513309",
+    "publicationdate": "2002-03-23"
+  },
+  {
+    "id": 283,
+    "authorId": 57,
+    "title": "The Emerald Labyrinth",
+    "synopsis": "The Emerald Labyrinth follows a eternal protagonist who must reconcile past secrets with a perilous future.",
+    "isbn": "9785456287107",
+    "publicationdate": "1977-03-30"
+  },
+  {
+    "id": 284,
+    "authorId": 57,
+    "title": "Last Paradox in Verdance",
+    "synopsis": "A sweeping narrative, Last Paradox in Verdance charts the journey of unlikely allies forging a new destiny.",
+    "isbn": "9786413439468",
+    "publicationdate": "1980-11-17"
+  },
+  {
+    "id": 285,
+    "authorId": 57,
+    "title": "Dreams of a Restless Storm",
+    "synopsis": "In Dreams of a Restless Storm, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9785416590978",
+    "publicationdate": "2024-05-03"
+  },
+  {
+    "id": 286,
+    "authorId": 58,
+    "title": "Legacy of Serapha",
+    "synopsis": "Set in Vesper, Legacy of Serapha unravels the mystery surrounding an ancient artifact and the power it bestows.",
+    "isbn": "9783913013325",
+    "publicationdate": "2000-08-25"
+  },
+  {
+    "id": 287,
+    "authorId": 58,
+    "title": "Into the Vast Orion",
+    "synopsis": "Set in Lunaris, Into the Vast Orion unravels the mystery surrounding an ancient artifact and the power it bestows.",
+    "isbn": "9789610685446",
+    "publicationdate": "2009-03-02"
+  },
+  {
+    "id": 288,
+    "authorId": 58,
+    "title": "Into the Golden Lyra",
+    "synopsis": "In Into the Golden Lyra, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9787168967897",
+    "publicationdate": "1989-07-14"
+  },
+  {
+    "id": 289,
+    "authorId": 58,
+    "title": "The Feathered Labyrinth",
+    "synopsis": "The Feathered Labyrinth follows a crimson protagonist who must reconcile past secrets with a perilous future.",
+    "isbn": "9785014366648",
+    "publicationdate": "2014-05-28"
+  },
+  {
+    "id": 290,
+    "authorId": 58,
+    "title": "Into the Shattered Elysian",
+    "synopsis": "Set in Tempest, Into the Shattered Elysian unravels the mystery surrounding an ancient artifact and the power it bestows.",
+    "isbn": "9784073629704",
+    "publicationdate": "1965-07-23"
+  },
+  {
+    "id": 291,
+    "authorId": 59,
+    "title": "Into the Fallen Elysian",
+    "synopsis": "In Into the Fallen Elysian, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9787766797337",
+    "publicationdate": "1967-07-29"
+  },
+  {
+    "id": 292,
+    "authorId": 59,
+    "title": "Tapestry of Orion",
+    "synopsis": "A sweeping narrative, Tapestry of Orion charts the journey of unlikely allies forging a new destiny.",
+    "isbn": "9784883778476",
+    "publicationdate": "2002-09-28"
+  },
+  {
+    "id": 293,
+    "authorId": 59,
+    "title": "Into the Secret Aurora",
+    "synopsis": "In Into the Secret Aurora, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9780141995248",
+    "publicationdate": "1988-10-05"
+  },
+  {
+    "id": 294,
+    "authorId": 59,
+    "title": "The Brilliant Harbor",
+    "synopsis": "The Brilliant Harbor follows a wandering protagonist who must reconcile past secrets with a perilous future.",
+    "isbn": "9789384194930",
+    "publicationdate": "2003-06-05"
+  },
+  {
+    "id": 295,
+    "authorId": 59,
+    "title": "Chronicles of the Golden Voyage",
+    "synopsis": "In Chronicles of the Golden Voyage, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9782894705418",
+    "publicationdate": "2018-12-06"
+  },
+  {
+    "id": 296,
+    "authorId": 60,
+    "title": "The Vast Covenant",
+    "synopsis": "In The Vast Covenant, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9787230732905",
+    "publicationdate": "2024-08-15"
+  },
+  {
+    "id": 297,
+    "authorId": 60,
+    "title": "Chronicles of the Fallen River",
+    "synopsis": "Set in Lunaris, Chronicles of the Fallen River unravels the mystery surrounding an ancient artifact and the power it bestows.",
+    "isbn": "9781855136211",
+    "publicationdate": "2006-08-14"
+  },
+  {
+    "id": 298,
+    "authorId": 60,
+    "title": "The Golden River",
+    "synopsis": "The Golden River explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9789846876733",
+    "publicationdate": "1962-12-07"
+  },
+  {
+    "id": 299,
+    "authorId": 60,
+    "title": "Echoes of Forest",
+    "synopsis": "Echoes of Forest explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9784714457764",
+    "publicationdate": "1975-06-13"
+  },
+  {
+    "id": 300,
+    "authorId": 60,
+    "title": "Into the Secret Orion",
+    "synopsis": "Into the Secret Orion explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9783672606162",
+    "publicationdate": "1985-05-08"
+  },
+  {
+    "id": 301,
+    "authorId": 61,
+    "title": "Last Masquerade in Orion",
+    "synopsis": "Last Masquerade in Orion follows a forgotten protagonist who must reconcile past secrets with a perilous future.",
+    "isbn": "9786306571693",
+    "publicationdate": "2008-08-11"
+  },
+  {
+    "id": 302,
+    "authorId": 61,
+    "title": "Throne of Galen",
+    "synopsis": "Throne of Galen explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9786922274688",
+    "publicationdate": "1985-04-04"
+  },
+  {
+    "id": 303,
+    "authorId": 61,
+    "title": "The Velvet Beacon",
+    "synopsis": "In The Velvet Beacon, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9785621098077",
+    "publicationdate": "1989-11-17"
+  },
+  {
+    "id": 304,
+    "authorId": 61,
+    "title": "Odyssey of Solace",
+    "synopsis": "In Odyssey of Solace, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9786455245364",
+    "publicationdate": "2013-02-10"
+  },
+  {
+    "id": 305,
+    "authorId": 61,
+    "title": "Dreams of a Ancient Legacy",
+    "synopsis": "In Dreams of a Ancient Legacy, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9782999920001",
+    "publicationdate": "2009-11-16"
+  },
+  {
+    "id": 306,
+    "authorId": 62,
+    "title": "The Eternal Eclipse",
+    "synopsis": "In The Eternal Eclipse, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9788686096126",
+    "publicationdate": "2007-06-24"
+  },
+  {
+    "id": 307,
+    "authorId": 62,
+    "title": "Into the Radiant Aether",
+    "synopsis": "In Into the Radiant Aether, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9789603032074",
+    "publicationdate": "1951-03-20"
+  },
+  {
+    "id": 308,
+    "authorId": 62,
+    "title": "Into the Forgotten Zephyria",
+    "synopsis": "Set in Solace, Into the Forgotten Zephyria unravels the mystery surrounding an ancient artifact and the power it bestows.",
+    "isbn": "9782280400309",
+    "publicationdate": "2010-01-16"
+  },
+  {
+    "id": 309,
+    "authorId": 62,
+    "title": "Chronicles of the Fallen Beacon",
+    "synopsis": "Chronicles of the Fallen Beacon explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9784584988799",
+    "publicationdate": "1977-08-25"
+  },
+  {
+    "id": 310,
+    "authorId": 62,
+    "title": "Compass of Solace",
+    "synopsis": "A sweeping narrative, Compass of Solace charts the journey of unlikely allies forging a new destiny.",
+    "isbn": "9784510811186",
+    "publicationdate": "1950-03-27"
+  },
+  {
+    "id": 311,
+    "authorId": 63,
+    "title": "Heir of Solace",
+    "synopsis": "Heir of Solace follows a midnight protagonist who must reconcile past secrets with a perilous future.",
+    "isbn": "9788153873462",
+    "publicationdate": "1985-06-10"
+  },
+  {
+    "id": 312,
+    "authorId": 63,
+    "title": "Dreams of a Ancient Covenant",
+    "synopsis": "Dreams of a Ancient Covenant explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9784369625536",
+    "publicationdate": "2013-01-06"
+  },
+  {
+    "id": 313,
+    "authorId": 63,
+    "title": "Echoes of Crescent",
+    "synopsis": "Set in Orion, Echoes of Crescent unravels the mystery surrounding an ancient artifact and the power it bestows.",
+    "isbn": "9787962281919",
+    "publicationdate": "2004-10-19"
+  },
+  {
+    "id": 314,
+    "authorId": 63,
+    "title": "The Eternal Voyage",
+    "synopsis": "In The Eternal Voyage, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9784609029524",
+    "publicationdate": "1990-09-25"
+  },
+  {
+    "id": 315,
+    "authorId": 63,
+    "title": "Into the Luminous Aurora",
+    "synopsis": "In Into the Luminous Aurora, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9786581582775",
+    "publicationdate": "1953-09-06"
+  },
+  {
+    "id": 316,
+    "authorId": 64,
+    "title": "Beyond the Tapestry",
+    "synopsis": "A sweeping narrative, Beyond the Tapestry charts the journey of unlikely allies forging a new destiny.",
+    "isbn": "9782267313729",
+    "publicationdate": "2014-05-03"
+  },
+  {
+    "id": 317,
+    "authorId": 64,
+    "title": "The Golden Harbor",
+    "synopsis": "Set in Zephyria, The Golden Harbor unravels the mystery surrounding an ancient artifact and the power it bestows.",
+    "isbn": "9788181675923",
+    "publicationdate": "1995-02-02"
+  },
+  {
+    "id": 318,
+    "authorId": 64,
+    "title": "Dreams of a Secret Throne",
+    "synopsis": "In Dreams of a Secret Throne, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9786678505488",
+    "publicationdate": "1973-10-05"
+  },
+  {
+    "id": 319,
+    "authorId": 64,
+    "title": "Eclipse of Verdance",
+    "synopsis": "Eclipse of Verdance follows a crimson protagonist who must reconcile past secrets with a perilous future.",
+    "isbn": "9780892344170",
+    "publicationdate": "2013-07-26"
+  },
+  {
+    "id": 320,
+    "authorId": 64,
+    "title": "Into the Luminous Vesper",
+    "synopsis": "Into the Luminous Vesper explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9782274604533",
+    "publicationdate": "2017-05-04"
+  },
+  {
+    "id": 321,
+    "authorId": 65,
+    "title": "Last Constellation in Eirene",
+    "synopsis": "In Last Constellation in Eirene, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9788667036846",
+    "publicationdate": "2007-06-02"
+  },
+  {
+    "id": 322,
+    "authorId": 65,
+    "title": "The Restless Labyrinth",
+    "synopsis": "The Restless Labyrinth explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9789862087377",
+    "publicationdate": "2014-09-07"
+  },
+  {
+    "id": 323,
+    "authorId": 65,
+    "title": "Chronicles of the Silent Tapestry",
+    "synopsis": "Chronicles of the Silent Tapestry explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9788708410792",
+    "publicationdate": "2020-08-01"
+  },
+  {
+    "id": 324,
+    "authorId": 65,
+    "title": "Last Citadel in Caligo",
+    "synopsis": "Last Citadel in Caligo follows a secret protagonist who must reconcile past secrets with a perilous future.",
+    "isbn": "9782016536781",
+    "publicationdate": "1971-08-10"
+  },
+  {
+    "id": 325,
+    "authorId": 65,
+    "title": "Beyond the Legacy",
+    "synopsis": "Beyond the Legacy follows a golden protagonist who must reconcile past secrets with a perilous future.",
+    "isbn": "9781845190004",
+    "publicationdate": "1964-07-21"
+  },
+  {
+    "id": 326,
+    "authorId": 66,
+    "title": "Chronicles of the Fallen Forest",
+    "synopsis": "Chronicles of the Fallen Forest explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9786564311366",
+    "publicationdate": "2013-12-06"
+  },
+  {
+    "id": 327,
+    "authorId": 66,
+    "title": "Chronicles of the Brilliant Harbor",
+    "synopsis": "In Chronicles of the Brilliant Harbor, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9788407180745",
+    "publicationdate": "1982-05-29"
+  },
+  {
+    "id": 328,
+    "authorId": 66,
+    "title": "The Luminous Constellation",
+    "synopsis": "A sweeping narrative, The Luminous Constellation charts the journey of unlikely allies forging a new destiny.",
+    "isbn": "9783178220719",
+    "publicationdate": "1979-06-07"
+  },
+  {
+    "id": 329,
+    "authorId": 66,
+    "title": "Last Odyssey in Lunaris",
+    "synopsis": "Last Odyssey in Lunaris explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9780340595298",
+    "publicationdate": "2003-01-06"
+  },
+  {
+    "id": 330,
+    "authorId": 66,
+    "title": "Voyage of Solace",
+    "synopsis": "Set in Arcadia, Voyage of Solace unravels the mystery surrounding an ancient artifact and the power it bestows.",
+    "isbn": "9781883040525",
+    "publicationdate": "1970-02-04"
+  },
+  {
+    "id": 331,
+    "authorId": 67,
+    "title": "Dreams of a Golden Heir",
+    "synopsis": "Set in Solace, Dreams of a Golden Heir unravels the mystery surrounding an ancient artifact and the power it bestows.",
+    "isbn": "9786620904184",
+    "publicationdate": "1977-07-31"
+  },
+  {
+    "id": 332,
+    "authorId": 67,
+    "title": "The Spectral Wharf",
+    "synopsis": "Set in Nymera, The Spectral Wharf unravels the mystery surrounding an ancient artifact and the power it bestows.",
+    "isbn": "9788565613113",
+    "publicationdate": "1981-12-27"
+  },
+  {
+    "id": 333,
+    "authorId": 67,
+    "title": "Beyond the Constellation",
+    "synopsis": "Set in Zephyria, Beyond the Constellation unravels the mystery surrounding an ancient artifact and the power it bestows.",
+    "isbn": "9781853903616",
+    "publicationdate": "1978-12-31"
+  },
+  {
+    "id": 334,
+    "authorId": 67,
+    "title": "The Restless Eclipse",
+    "synopsis": "The Restless Eclipse explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9786886198413",
+    "publicationdate": "2016-05-24"
+  },
+  {
+    "id": 335,
+    "authorId": 67,
+    "title": "Dreams of a Spectral Masquerade",
+    "synopsis": "Dreams of a Spectral Masquerade follows a feathered protagonist who must reconcile past secrets with a perilous future.",
+    "isbn": "9785910859495",
+    "publicationdate": "1994-03-09"
+  },
+  {
+    "id": 336,
+    "authorId": 68,
+    "title": "Echoes of Constellation",
+    "synopsis": "A sweeping narrative, Echoes of Constellation charts the journey of unlikely allies forging a new destiny.",
+    "isbn": "9781645442840",
+    "publicationdate": "1997-09-04"
+  },
+  {
+    "id": 337,
+    "authorId": 68,
+    "title": "Last Storm in Lyra",
+    "synopsis": "Last Storm in Lyra follows a ancient protagonist who must reconcile past secrets with a perilous future.",
+    "isbn": "9784935075794",
+    "publicationdate": "1999-06-21"
+  },
+  {
+    "id": 338,
+    "authorId": 68,
+    "title": "Empire of Lyra",
+    "synopsis": "Empire of Lyra explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9782284898509",
+    "publicationdate": "1967-12-10"
+  },
+  {
+    "id": 339,
+    "authorId": 68,
+    "title": "Chronicles of the Restless Heir",
+    "synopsis": "Set in Arcadia, Chronicles of the Restless Heir unravels the mystery surrounding an ancient artifact and the power it bestows.",
+    "isbn": "9789225965360",
+    "publicationdate": "1996-03-05"
+  },
+  {
+    "id": 340,
+    "authorId": 68,
+    "title": "The Fallen Covenant",
+    "synopsis": "In The Fallen Covenant, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9784086883703",
+    "publicationdate": "1977-02-20"
+  },
+  {
+    "id": 341,
+    "authorId": 69,
+    "title": "Chronicles of the Midnight Covenant",
+    "synopsis": "In Chronicles of the Midnight Covenant, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9783761581296",
+    "publicationdate": "1955-01-24"
+  },
+  {
+    "id": 342,
+    "authorId": 69,
+    "title": "Chronicles of the Restless Archive",
+    "synopsis": "Chronicles of the Restless Archive explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9780755598397",
+    "publicationdate": "2019-12-21"
+  },
+  {
+    "id": 343,
+    "authorId": 69,
+    "title": "Into the Feathered Nymera",
+    "synopsis": "Set in Verdance, Into the Feathered Nymera unravels the mystery surrounding an ancient artifact and the power it bestows.",
+    "isbn": "9782240284510",
+    "publicationdate": "1992-08-17"
+  },
+  {
+    "id": 344,
+    "authorId": 69,
+    "title": "Wharf of Tempest",
+    "synopsis": "In Wharf of Tempest, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9787240638888",
+    "publicationdate": "1973-12-16"
+  },
+  {
+    "id": 345,
+    "authorId": 69,
+    "title": "Into the Eternal Solace",
+    "synopsis": "A sweeping narrative, Into the Eternal Solace charts the journey of unlikely allies forging a new destiny.",
+    "isbn": "9787175749675",
+    "publicationdate": "2014-03-13"
+  },
+  {
+    "id": 346,
+    "authorId": 70,
+    "title": "Odyssey of Serapha",
+    "synopsis": "Odyssey of Serapha explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9786666613521",
+    "publicationdate": "1968-05-05"
+  },
+  {
+    "id": 347,
+    "authorId": 70,
+    "title": "The Forgotten Crescent",
+    "synopsis": "A sweeping narrative, The Forgotten Crescent charts the journey of unlikely allies forging a new destiny.",
+    "isbn": "9783533955390",
+    "publicationdate": "1986-12-29"
+  },
+  {
+    "id": 348,
+    "authorId": 70,
+    "title": "Chronicles of the Eternal Empire",
+    "synopsis": "In Chronicles of the Eternal Empire, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9785502474638",
+    "publicationdate": "2008-05-30"
+  },
+  {
+    "id": 349,
+    "authorId": 70,
+    "title": "Chronicles of the Golden Palimpsest",
+    "synopsis": "Chronicles of the Golden Palimpsest follows a ancient protagonist who must reconcile past secrets with a perilous future.",
+    "isbn": "9783326202459",
+    "publicationdate": "1959-03-26"
+  },
+  {
+    "id": 350,
+    "authorId": 70,
+    "title": "Last Tapestry in Aether",
+    "synopsis": "Last Tapestry in Aether follows a silent protagonist who must reconcile past secrets with a perilous future.",
+    "isbn": "9783656436280",
+    "publicationdate": "2002-09-01"
+  },
+  {
+    "id": 351,
+    "authorId": 71,
+    "title": "Eclipse of Solace",
+    "synopsis": "In Eclipse of Solace, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9780783114435",
+    "publicationdate": "2019-12-15"
+  },
+  {
+    "id": 352,
+    "authorId": 71,
+    "title": "Chronicles of the Ancient Wharf",
+    "synopsis": "In Chronicles of the Ancient Wharf, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9788073258795",
+    "publicationdate": "2015-12-01"
+  },
+  {
+    "id": 353,
+    "authorId": 71,
+    "title": "The Shattered Reckoning",
+    "synopsis": "The Shattered Reckoning explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9783814184192",
+    "publicationdate": "1989-03-24"
+  },
+  {
+    "id": 354,
+    "authorId": 71,
+    "title": "Last Beacon in Zephyria",
+    "synopsis": "Last Beacon in Zephyria explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9784236627513",
+    "publicationdate": "1953-11-06"
+  },
+  {
+    "id": 355,
+    "authorId": 71,
+    "title": "Dreams of a Fallen Odyssey",
+    "synopsis": "A sweeping narrative, Dreams of a Fallen Odyssey charts the journey of unlikely allies forging a new destiny.",
+    "isbn": "9780413394043",
+    "publicationdate": "1973-03-13"
+  },
+  {
+    "id": 356,
+    "authorId": 72,
+    "title": "Mirror of Arcadia",
+    "synopsis": "Set in Aether, Mirror of Arcadia unravels the mystery surrounding an ancient artifact and the power it bestows.",
+    "isbn": "9787778217510",
+    "publicationdate": "2020-05-12"
+  },
+  {
+    "id": 357,
+    "authorId": 72,
+    "title": "Into the Midnight Lunaris",
+    "synopsis": "Into the Midnight Lunaris explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9788925601451",
+    "publicationdate": "1985-04-26"
+  },
+  {
+    "id": 358,
+    "authorId": 72,
+    "title": "The Whispering Eclipse",
+    "synopsis": "The Whispering Eclipse explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9784042199941",
+    "publicationdate": "1966-05-01"
+  },
+  {
+    "id": 359,
+    "authorId": 72,
+    "title": "Garden of Caelum",
+    "synopsis": "Garden of Caelum follows a eternal protagonist who must reconcile past secrets with a perilous future.",
+    "isbn": "9781551923317",
+    "publicationdate": "1982-10-25"
+  },
+  {
+    "id": 360,
+    "authorId": 72,
+    "title": "Chronicles of the Ancient Forest",
+    "synopsis": "Chronicles of the Ancient Forest explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9789279676258",
+    "publicationdate": "1977-08-19"
+  },
+  {
+    "id": 361,
+    "authorId": 73,
+    "title": "Dreams of a Secret Constellation",
+    "synopsis": "Set in Zephyria, Dreams of a Secret Constellation unravels the mystery surrounding an ancient artifact and the power it bestows.",
+    "isbn": "9780122973300",
+    "publicationdate": "2004-06-21"
+  },
+  {
+    "id": 362,
+    "authorId": 73,
+    "title": "Chronicles of the Luminous Covenant",
+    "synopsis": "A sweeping narrative, Chronicles of the Luminous Covenant charts the journey of unlikely allies forging a new destiny.",
+    "isbn": "9780524892396",
+    "publicationdate": "1959-08-05"
+  },
+  {
+    "id": 363,
+    "authorId": 73,
+    "title": "The Vast Garden",
+    "synopsis": "In The Vast Garden, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9787343525836",
+    "publicationdate": "2010-12-21"
+  },
+  {
+    "id": 364,
+    "authorId": 73,
+    "title": "Last Storm in Solace",
+    "synopsis": "Last Storm in Solace follows a whispering protagonist who must reconcile past secrets with a perilous future.",
+    "isbn": "9785373368860",
+    "publicationdate": "1959-12-19"
+  },
+  {
+    "id": 365,
+    "authorId": 73,
+    "title": "Paradox of Eirene",
+    "synopsis": "In Paradox of Eirene, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9782720780582",
+    "publicationdate": "1989-09-21"
+  },
+  {
+    "id": 366,
+    "authorId": 74,
+    "title": "Last Constellation in Zephyria",
+    "synopsis": "A sweeping narrative, Last Constellation in Zephyria charts the journey of unlikely allies forging a new destiny.",
+    "isbn": "9782429861511",
+    "publicationdate": "1998-03-16"
+  },
+  {
+    "id": 367,
+    "authorId": 74,
+    "title": "Echoes of Archive",
+    "synopsis": "Set in Lunaris, Echoes of Archive unravels the mystery surrounding an ancient artifact and the power it bestows.",
+    "isbn": "9785332636752",
+    "publicationdate": "2007-04-19"
+  },
+  {
+    "id": 368,
+    "authorId": 74,
+    "title": "Chronicle of Tempest",
+    "synopsis": "A sweeping narrative, Chronicle of Tempest charts the journey of unlikely allies forging a new destiny.",
+    "isbn": "9781388924005",
+    "publicationdate": "2024-10-08"
+  },
+  {
+    "id": 369,
+    "authorId": 74,
+    "title": "Dreams of a Whispering Covenant",
+    "synopsis": "A sweeping narrative, Dreams of a Whispering Covenant charts the journey of unlikely allies forging a new destiny.",
+    "isbn": "9784526929279",
+    "publicationdate": "1951-03-02"
+  },
+  {
+    "id": 370,
+    "authorId": 74,
+    "title": "Throne of Zephyria",
+    "synopsis": "Throne of Zephyria follows a golden protagonist who must reconcile past secrets with a perilous future.",
+    "isbn": "9788889649965",
+    "publicationdate": "2002-07-15"
+  },
+  {
+    "id": 371,
+    "authorId": 75,
+    "title": "Last River in Arcadia",
+    "synopsis": "Set in Meridian, Last River in Arcadia unravels the mystery surrounding an ancient artifact and the power it bestows.",
+    "isbn": "9789301592381",
+    "publicationdate": "1995-05-12"
+  },
+  {
+    "id": 372,
+    "authorId": 75,
+    "title": "Chronicles of the Whispering Heir",
+    "synopsis": "Chronicles of the Whispering Heir explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9786562894789",
+    "publicationdate": "1995-06-08"
+  },
+  {
+    "id": 373,
+    "authorId": 75,
+    "title": "The Feathered Crescent",
+    "synopsis": "In The Feathered Crescent, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9783594363498",
+    "publicationdate": "1955-12-27"
+  },
+  {
+    "id": 374,
+    "authorId": 75,
+    "title": "Into the Feathered Aurora",
+    "synopsis": "Set in Eirene, Into the Feathered Aurora unravels the mystery surrounding an ancient artifact and the power it bestows.",
+    "isbn": "9782218716761",
+    "publicationdate": "1993-11-13"
+  },
+  {
+    "id": 375,
+    "authorId": 75,
+    "title": "Last Legacy in Aether",
+    "synopsis": "Set in Vesper, Last Legacy in Aether unravels the mystery surrounding an ancient artifact and the power it bestows.",
+    "isbn": "9781521820165",
+    "publicationdate": "1956-07-30"
+  },
+  {
+    "id": 376,
+    "authorId": 76,
+    "title": "Last Citadel in Zephyria",
+    "synopsis": "In Last Citadel in Zephyria, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9782298919122",
+    "publicationdate": "1982-12-26"
+  },
+  {
+    "id": 377,
+    "authorId": 76,
+    "title": "Dreams of a Obsidian Wharf",
+    "synopsis": "In Dreams of a Obsidian Wharf, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9787138386976",
+    "publicationdate": "1988-02-06"
+  },
+  {
+    "id": 378,
+    "authorId": 76,
+    "title": "Dreams of a Midnight Heir",
+    "synopsis": "Set in Lunaris, Dreams of a Midnight Heir unravels the mystery surrounding an ancient artifact and the power it bestows.",
+    "isbn": "9785972460387",
+    "publicationdate": "1963-02-13"
+  },
+  {
+    "id": 379,
+    "authorId": 76,
+    "title": "Last Palimpsest in Halcyon",
+    "synopsis": "A sweeping narrative, Last Palimpsest in Halcyon charts the journey of unlikely allies forging a new destiny.",
+    "isbn": "9789714426090",
+    "publicationdate": "1965-03-21"
+  },
+  {
+    "id": 380,
+    "authorId": 76,
+    "title": "Chronicles of the Ancient Crescent",
+    "synopsis": "Chronicles of the Ancient Crescent follows a spectral protagonist who must reconcile past secrets with a perilous future.",
+    "isbn": "9785168669371",
+    "publicationdate": "1952-12-21"
+  },
+  {
+    "id": 381,
+    "authorId": 77,
+    "title": "Chronicles of the Radiant Eclipse",
+    "synopsis": "A sweeping narrative, Chronicles of the Radiant Eclipse charts the journey of unlikely allies forging a new destiny.",
+    "isbn": "9782341321567",
+    "publicationdate": "1987-10-01"
+  },
+  {
+    "id": 382,
+    "authorId": 77,
+    "title": "Masquerade of Nymera",
+    "synopsis": "Masquerade of Nymera explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9786196843177",
+    "publicationdate": "2009-10-14"
+  },
+  {
+    "id": 383,
+    "authorId": 77,
+    "title": "Into the Golden Nymera",
+    "synopsis": "A sweeping narrative, Into the Golden Nymera charts the journey of unlikely allies forging a new destiny.",
+    "isbn": "9789725048027",
+    "publicationdate": "1953-01-09"
+  },
+  {
+    "id": 384,
+    "authorId": 77,
+    "title": "Shadows over Solace",
+    "synopsis": "Shadows over Solace explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9785101977923",
+    "publicationdate": "1977-04-02"
+  },
+  {
+    "id": 385,
+    "authorId": 77,
+    "title": "Echoes of Sky",
+    "synopsis": "Echoes of Sky explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9784685437125",
+    "publicationdate": "1991-11-04"
+  },
+  {
+    "id": 386,
+    "authorId": 78,
+    "title": "Garden of Zephyria",
+    "synopsis": "Garden of Zephyria follows a spectral protagonist who must reconcile past secrets with a perilous future.",
+    "isbn": "9789244422139",
+    "publicationdate": "2012-02-04"
+  },
+  {
+    "id": 387,
+    "authorId": 78,
+    "title": "Whispers in the Zephyria",
+    "synopsis": "Whispers in the Zephyria explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9789853630704",
+    "publicationdate": "2015-06-30"
+  },
+  {
+    "id": 388,
+    "authorId": 78,
+    "title": "Into the Emerald Verdance",
+    "synopsis": "In Into the Emerald Verdance, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9787418938889",
+    "publicationdate": "1964-06-25"
+  },
+  {
+    "id": 389,
+    "authorId": 78,
+    "title": "The Forgotten Heir",
+    "synopsis": "The Forgotten Heir explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9783902986543",
+    "publicationdate": "2010-08-03"
+  },
+  {
+    "id": 390,
+    "authorId": 78,
+    "title": "The Emerald Harbor",
+    "synopsis": "A sweeping narrative, The Emerald Harbor charts the journey of unlikely allies forging a new destiny.",
+    "isbn": "9789605762705",
+    "publicationdate": "1992-11-20"
+  },
+  {
+    "id": 391,
+    "authorId": 79,
+    "title": "Chronicle of Halcyon",
+    "synopsis": "Set in Eirene, Chronicle of Halcyon unravels the mystery surrounding an ancient artifact and the power it bestows.",
+    "isbn": "9788289484612",
+    "publicationdate": "1979-01-31"
+  },
+  {
+    "id": 392,
+    "authorId": 79,
+    "title": "Into the Hidden Orion",
+    "synopsis": "Into the Hidden Orion follows a whispering protagonist who must reconcile past secrets with a perilous future.",
+    "isbn": "9788579308389",
+    "publicationdate": "2020-05-05"
+  },
+  {
+    "id": 393,
+    "authorId": 79,
+    "title": "Into the Blazing Halcyon",
+    "synopsis": "In Into the Blazing Halcyon, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9787695385015",
+    "publicationdate": "1970-08-07"
+  },
+  {
+    "id": 394,
+    "authorId": 79,
+    "title": "Into the Forgotten Verdance",
+    "synopsis": "Into the Forgotten Verdance explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9788353029172",
+    "publicationdate": "1991-12-27"
+  },
+  {
+    "id": 395,
+    "authorId": 79,
+    "title": "Last Paradox in Nymera",
+    "synopsis": "A sweeping narrative, Last Paradox in Nymera charts the journey of unlikely allies forging a new destiny.",
+    "isbn": "9780432756813",
+    "publicationdate": "1991-11-23"
+  },
+  {
+    "id": 396,
+    "authorId": 80,
+    "title": "Chronicles of the Whispering Wharf",
+    "synopsis": "A sweeping narrative, Chronicles of the Whispering Wharf charts the journey of unlikely allies forging a new destiny.",
+    "isbn": "9784188151477",
+    "publicationdate": "1978-08-27"
+  },
+  {
+    "id": 397,
+    "authorId": 80,
+    "title": "Shadows over Caligo",
+    "synopsis": "A sweeping narrative, Shadows over Caligo charts the journey of unlikely allies forging a new destiny.",
+    "isbn": "9782769658669",
+    "publicationdate": "1981-12-22"
+  },
+  {
+    "id": 398,
+    "authorId": 80,
+    "title": "Paradox of Orion",
+    "synopsis": "In Paradox of Orion, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9788783362975",
+    "publicationdate": "1975-09-25"
+  },
+  {
+    "id": 399,
+    "authorId": 80,
+    "title": "The Feathered Paradox",
+    "synopsis": "Set in Arcadia, The Feathered Paradox unravels the mystery surrounding an ancient artifact and the power it bestows.",
+    "isbn": "9789588781707",
+    "publicationdate": "2006-06-25"
+  },
+  {
+    "id": 400,
+    "authorId": 80,
+    "title": "The Vast Reckoning",
+    "synopsis": "The Vast Reckoning follows a shattered protagonist who must reconcile past secrets with a perilous future.",
+    "isbn": "9789914236449",
+    "publicationdate": "2016-10-12"
+  },
+  {
+    "id": 401,
+    "authorId": 81,
+    "title": "Last Legacy in Tempest",
+    "synopsis": "In Last Legacy in Tempest, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9780938604899",
+    "publicationdate": "1972-01-06"
+  },
+  {
+    "id": 402,
+    "authorId": 81,
+    "title": "Whispers in the Eirene",
+    "synopsis": "Whispers in the Eirene explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9789110230088",
+    "publicationdate": "2019-05-14"
+  },
+  {
+    "id": 403,
+    "authorId": 81,
+    "title": "The Secret Harbor",
+    "synopsis": "The Secret Harbor follows a spectral protagonist who must reconcile past secrets with a perilous future.",
+    "isbn": "9787339194904",
+    "publicationdate": "1991-12-11"
+  },
+  {
+    "id": 404,
+    "authorId": 81,
+    "title": "Into the Midnight Tempest",
+    "synopsis": "Into the Midnight Tempest explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9788882400988",
+    "publicationdate": "1962-10-15"
+  },
+  {
+    "id": 405,
+    "authorId": 81,
+    "title": "Labyrinth of Lunaris",
+    "synopsis": "Set in Nymera, Labyrinth of Lunaris unravels the mystery surrounding an ancient artifact and the power it bestows.",
+    "isbn": "9782393195870",
+    "publicationdate": "1967-05-03"
+  },
+  {
+    "id": 406,
+    "authorId": 82,
+    "title": "Last Palimpsest in Tempest",
+    "synopsis": "In Last Palimpsest in Tempest, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9781891127278",
+    "publicationdate": "1975-10-08"
+  },
+  {
+    "id": 407,
+    "authorId": 82,
+    "title": "Paradox of Meridian",
+    "synopsis": "Paradox of Meridian follows a wandering protagonist who must reconcile past secrets with a perilous future.",
+    "isbn": "9789981334390",
+    "publicationdate": "1976-01-12"
+  },
+  {
+    "id": 408,
+    "authorId": 82,
+    "title": "Into the Feathered Aether",
+    "synopsis": "Set in Meridian, Into the Feathered Aether unravels the mystery surrounding an ancient artifact and the power it bestows.",
+    "isbn": "9789266546916",
+    "publicationdate": "1954-04-13"
+  },
+  {
+    "id": 409,
+    "authorId": 82,
+    "title": "Chronicles of the Ancient Beacon",
+    "synopsis": "In Chronicles of the Ancient Beacon, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9785419888315",
+    "publicationdate": "1977-02-03"
+  },
+  {
+    "id": 410,
+    "authorId": 82,
+    "title": "Chronicles of the Blazing Covenant",
+    "synopsis": "Chronicles of the Blazing Covenant follows a golden protagonist who must reconcile past secrets with a perilous future.",
+    "isbn": "9789567831326",
+    "publicationdate": "1978-12-12"
+  },
+  {
+    "id": 411,
+    "authorId": 83,
+    "title": "Into the Vast Caelum",
+    "synopsis": "A sweeping narrative, Into the Vast Caelum charts the journey of unlikely allies forging a new destiny.",
+    "isbn": "9783411816494",
+    "publicationdate": "1951-11-23"
+  },
+  {
+    "id": 412,
+    "authorId": 83,
+    "title": "The Wandering River",
+    "synopsis": "Set in Caelum, The Wandering River unravels the mystery surrounding an ancient artifact and the power it bestows.",
+    "isbn": "9784521891117",
+    "publicationdate": "1952-08-18"
+  },
+  {
+    "id": 413,
+    "authorId": 83,
+    "title": "Dreams of a Vast Storm",
+    "synopsis": "Set in Eirene, Dreams of a Vast Storm unravels the mystery surrounding an ancient artifact and the power it bestows.",
+    "isbn": "9783720019251",
+    "publicationdate": "1996-12-02"
+  },
+  {
+    "id": 414,
+    "authorId": 83,
+    "title": "Into the Forgotten Halcyon",
+    "synopsis": "Into the Forgotten Halcyon follows a ancient protagonist who must reconcile past secrets with a perilous future.",
+    "isbn": "9786798483151",
+    "publicationdate": "2012-10-08"
+  },
+  {
+    "id": 415,
+    "authorId": 83,
+    "title": "Shadows over Vesper",
+    "synopsis": "Shadows over Vesper follows a restless protagonist who must reconcile past secrets with a perilous future.",
+    "isbn": "9786261777790",
+    "publicationdate": "1968-08-10"
+  },
+  {
+    "id": 416,
+    "authorId": 84,
+    "title": "Dreams of a Eternal Chronicle",
+    "synopsis": "Set in Caligo, Dreams of a Eternal Chronicle unravels the mystery surrounding an ancient artifact and the power it bestows.",
+    "isbn": "9789006825925",
+    "publicationdate": "1976-02-05"
+  },
+  {
+    "id": 417,
+    "authorId": 84,
+    "title": "Reckoning of Halcyon",
+    "synopsis": "Reckoning of Halcyon follows a velvet protagonist who must reconcile past secrets with a perilous future.",
+    "isbn": "9786227008231",
+    "publicationdate": "1968-01-24"
+  },
+  {
+    "id": 418,
+    "authorId": 84,
+    "title": "Chronicle of Arcadia",
+    "synopsis": "In Chronicle of Arcadia, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9782971058400",
+    "publicationdate": "1972-01-25"
+  },
+  {
+    "id": 419,
+    "authorId": 84,
+    "title": "Last Storm in Caelum",
+    "synopsis": "A sweeping narrative, Last Storm in Caelum charts the journey of unlikely allies forging a new destiny.",
+    "isbn": "9781581932518",
+    "publicationdate": "1968-09-08"
+  },
+  {
+    "id": 420,
+    "authorId": 84,
+    "title": "Into the Wandering Solace",
+    "synopsis": "Into the Wandering Solace explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9782559954415",
+    "publicationdate": "1989-09-29"
+  },
+  {
+    "id": 421,
+    "authorId": 85,
+    "title": "Dreams of a Whispering Compass",
+    "synopsis": "In Dreams of a Whispering Compass, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9789759932633",
+    "publicationdate": "1969-03-19"
+  },
+  {
+    "id": 422,
+    "authorId": 85,
+    "title": "Chronicles of the Emerald Constellation",
+    "synopsis": "A sweeping narrative, Chronicles of the Emerald Constellation charts the journey of unlikely allies forging a new destiny.",
+    "isbn": "9781818757099",
+    "publicationdate": "1972-12-12"
+  },
+  {
+    "id": 423,
+    "authorId": 85,
+    "title": "Into the Wandering Orion",
+    "synopsis": "In Into the Wandering Orion, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9787507508208",
+    "publicationdate": "1984-01-23"
+  },
+  {
+    "id": 424,
+    "authorId": 85,
+    "title": "Wharf of Eirene",
+    "synopsis": "In Wharf of Eirene, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9788735518449",
+    "publicationdate": "2017-12-10"
+  },
+  {
+    "id": 425,
+    "authorId": 85,
+    "title": "Chronicles of the Feathered Compass",
+    "synopsis": "In Chronicles of the Feathered Compass, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9783140822299",
+    "publicationdate": "1969-04-18"
+  },
+  {
+    "id": 426,
+    "authorId": 86,
+    "title": "Last Odyssey in Caelum",
+    "synopsis": "A sweeping narrative, Last Odyssey in Caelum charts the journey of unlikely allies forging a new destiny.",
+    "isbn": "9786686837971",
+    "publicationdate": "2023-07-23"
+  },
+  {
+    "id": 427,
+    "authorId": 86,
+    "title": "Dreams of a Brilliant Reckoning",
+    "synopsis": "A sweeping narrative, Dreams of a Brilliant Reckoning charts the journey of unlikely allies forging a new destiny.",
+    "isbn": "9788300003290",
+    "publicationdate": "1966-08-31"
+  },
+  {
+    "id": 428,
+    "authorId": 86,
+    "title": "Archive of Zephyria",
+    "synopsis": "A sweeping narrative, Archive of Zephyria charts the journey of unlikely allies forging a new destiny.",
+    "isbn": "9780499630581",
+    "publicationdate": "1958-05-25"
+  },
+  {
+    "id": 429,
+    "authorId": 86,
+    "title": "Dreams of a Wandering Wharf",
+    "synopsis": "Dreams of a Wandering Wharf explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9786241362286",
+    "publicationdate": "2019-06-25"
+  },
+  {
+    "id": 430,
+    "authorId": 86,
+    "title": "Last Compass in Caelum",
+    "synopsis": "A sweeping narrative, Last Compass in Caelum charts the journey of unlikely allies forging a new destiny.",
+    "isbn": "9785265601483",
+    "publicationdate": "1952-08-16"
+  },
+  {
+    "id": 431,
+    "authorId": 87,
+    "title": "The Eternal Odyssey",
+    "synopsis": "The Eternal Odyssey explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9781902426032",
+    "publicationdate": "1959-12-26"
+  },
+  {
+    "id": 432,
+    "authorId": 87,
+    "title": "Mirror of Meridian",
+    "synopsis": "Mirror of Meridian explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9787056938366",
+    "publicationdate": "1988-05-12"
+  },
+  {
+    "id": 433,
+    "authorId": 87,
+    "title": "Shadows over Tempest",
+    "synopsis": "Shadows over Tempest follows a blazing protagonist who must reconcile past secrets with a perilous future.",
+    "isbn": "9782647130682",
+    "publicationdate": "2011-12-28"
+  },
+  {
+    "id": 434,
+    "authorId": 87,
+    "title": "Chronicles of the Ancient River",
+    "synopsis": "Set in Solace, Chronicles of the Ancient River unravels the mystery surrounding an ancient artifact and the power it bestows.",
+    "isbn": "9785452653304",
+    "publicationdate": "1966-06-03"
+  },
+  {
+    "id": 435,
+    "authorId": 87,
+    "title": "Mirror of Elysian",
+    "synopsis": "Set in Serapha, Mirror of Elysian unravels the mystery surrounding an ancient artifact and the power it bestows.",
+    "isbn": "9788688646086",
+    "publicationdate": "2019-11-26"
+  },
+  {
+    "id": 436,
+    "authorId": 88,
+    "title": "The Radiant Palimpsest",
+    "synopsis": "The Radiant Palimpsest explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9788693241606",
+    "publicationdate": "1965-11-02"
+  },
+  {
+    "id": 437,
+    "authorId": 88,
+    "title": "Into the Crimson Meridian",
+    "synopsis": "Into the Crimson Meridian follows a hidden protagonist who must reconcile past secrets with a perilous future.",
+    "isbn": "9789502275443",
+    "publicationdate": "1988-06-28"
+  },
+  {
+    "id": 438,
+    "authorId": 88,
+    "title": "Into the Forgotten Solace",
+    "synopsis": "Into the Forgotten Solace explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9784025446161",
+    "publicationdate": "1968-03-22"
+  },
+  {
+    "id": 439,
+    "authorId": 88,
+    "title": "Chronicles of the Ancient Masquerade",
+    "synopsis": "In Chronicles of the Ancient Masquerade, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9783809710312",
+    "publicationdate": "2024-05-17"
+  },
+  {
+    "id": 440,
+    "authorId": 88,
+    "title": "Reckoning of Caligo",
+    "synopsis": "In Reckoning of Caligo, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9789977003654",
+    "publicationdate": "1999-04-23"
+  },
+  {
+    "id": 441,
+    "authorId": 89,
+    "title": "Last Crescent in Arcadia",
+    "synopsis": "Last Crescent in Arcadia explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9784462317927",
+    "publicationdate": "2000-09-14"
+  },
+  {
+    "id": 442,
+    "authorId": 89,
+    "title": "Last Eclipse in Verdance",
+    "synopsis": "In Last Eclipse in Verdance, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9782680572009",
+    "publicationdate": "2012-02-06"
+  },
+  {
+    "id": 443,
+    "authorId": 89,
+    "title": "Into the Spectral Nymera",
+    "synopsis": "A sweeping narrative, Into the Spectral Nymera charts the journey of unlikely allies forging a new destiny.",
+    "isbn": "9785911632075",
+    "publicationdate": "1984-09-16"
+  },
+  {
+    "id": 444,
+    "authorId": 89,
+    "title": "Chronicles of the Vast Paradox",
+    "synopsis": "Chronicles of the Vast Paradox explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9782221014744",
+    "publicationdate": "1953-08-28"
+  },
+  {
+    "id": 445,
+    "authorId": 89,
+    "title": "The Silent Heir",
+    "synopsis": "In The Silent Heir, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9784255136079",
+    "publicationdate": "1959-10-28"
+  },
+  {
+    "id": 446,
+    "authorId": 90,
+    "title": "The Hidden Wharf",
+    "synopsis": "Set in Lyra, The Hidden Wharf unravels the mystery surrounding an ancient artifact and the power it bestows.",
+    "isbn": "9783272475552",
+    "publicationdate": "2016-11-25"
+  },
+  {
+    "id": 447,
+    "authorId": 90,
+    "title": "Last Paradox in Halcyon",
+    "synopsis": "Last Paradox in Halcyon explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9780345273402",
+    "publicationdate": "1956-11-03"
+  },
+  {
+    "id": 448,
+    "authorId": 90,
+    "title": "Chronicles of the Wandering Garden",
+    "synopsis": "A sweeping narrative, Chronicles of the Wandering Garden charts the journey of unlikely allies forging a new destiny.",
+    "isbn": "9780681278217",
+    "publicationdate": "1992-03-10"
+  },
+  {
+    "id": 449,
+    "authorId": 90,
+    "title": "Dreams of a Brilliant Song",
+    "synopsis": "Set in Lunaris, Dreams of a Brilliant Song unravels the mystery surrounding an ancient artifact and the power it bestows.",
+    "isbn": "9786121246763",
+    "publicationdate": "2024-04-24"
+  },
+  {
+    "id": 450,
+    "authorId": 90,
+    "title": "Dreams of a Forgotten Beacon",
+    "synopsis": "Set in Aether, Dreams of a Forgotten Beacon unravels the mystery surrounding an ancient artifact and the power it bestows.",
+    "isbn": "9786345681166",
+    "publicationdate": "2022-10-29"
+  },
+  {
+    "id": 451,
+    "authorId": 91,
+    "title": "Dreams of a Fallen River",
+    "synopsis": "In Dreams of a Fallen River, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9787903971659",
+    "publicationdate": "2018-05-27"
+  },
+  {
+    "id": 452,
+    "authorId": 91,
+    "title": "The Secret Mirror",
+    "synopsis": "A sweeping narrative, The Secret Mirror charts the journey of unlikely allies forging a new destiny.",
+    "isbn": "9787406881023",
+    "publicationdate": "2003-07-11"
+  },
+  {
+    "id": 453,
+    "authorId": 91,
+    "title": "Chronicles of the Hidden Storm",
+    "synopsis": "Set in Arcadia, Chronicles of the Hidden Storm unravels the mystery surrounding an ancient artifact and the power it bestows.",
+    "isbn": "9787043544529",
+    "publicationdate": "2016-08-24"
+  },
+  {
+    "id": 454,
+    "authorId": 91,
+    "title": "Last Labyrinth in Elysian",
+    "synopsis": "A sweeping narrative, Last Labyrinth in Elysian charts the journey of unlikely allies forging a new destiny.",
+    "isbn": "9786148727140",
+    "publicationdate": "2013-04-09"
+  },
+  {
+    "id": 455,
+    "authorId": 91,
+    "title": "Throne of Nymera",
+    "synopsis": "Throne of Nymera follows a vast protagonist who must reconcile past secrets with a perilous future.",
+    "isbn": "9780783611011",
+    "publicationdate": "2009-04-01"
+  },
+  {
+    "id": 456,
+    "authorId": 92,
+    "title": "Last Eclipse in Lyra",
+    "synopsis": "Last Eclipse in Lyra follows a ancient protagonist who must reconcile past secrets with a perilous future.",
+    "isbn": "9785262710180",
+    "publicationdate": "2004-11-27"
+  },
+  {
+    "id": 457,
+    "authorId": 92,
+    "title": "Echoes of Compass",
+    "synopsis": "Set in Orion, Echoes of Compass unravels the mystery surrounding an ancient artifact and the power it bestows.",
+    "isbn": "9784327018995",
+    "publicationdate": "2004-04-01"
+  },
+  {
+    "id": 458,
+    "authorId": 92,
+    "title": "Last Beacon in Nymera",
+    "synopsis": "Last Beacon in Nymera explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9785329376289",
+    "publicationdate": "2017-07-08"
+  },
+  {
+    "id": 459,
+    "authorId": 92,
+    "title": "The Eternal Labyrinth",
+    "synopsis": "The Eternal Labyrinth follows a ancient protagonist who must reconcile past secrets with a perilous future.",
+    "isbn": "9785287801375",
+    "publicationdate": "1957-11-16"
+  },
+  {
+    "id": 460,
+    "authorId": 92,
+    "title": "Chronicles of the Brilliant Wharf",
+    "synopsis": "In Chronicles of the Brilliant Wharf, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9781335789090",
+    "publicationdate": "1950-02-18"
+  },
+  {
+    "id": 461,
+    "authorId": 93,
+    "title": "Dreams of a Restless Legacy",
+    "synopsis": "In Dreams of a Restless Legacy, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9783956920724",
+    "publicationdate": "2014-05-28"
+  },
+  {
+    "id": 462,
+    "authorId": 93,
+    "title": "The Brilliant Heir",
+    "synopsis": "A sweeping narrative, The Brilliant Heir charts the journey of unlikely allies forging a new destiny.",
+    "isbn": "9787929754242",
+    "publicationdate": "2003-03-16"
+  },
+  {
+    "id": 463,
+    "authorId": 93,
+    "title": "Dreams of a Secret Covenant",
+    "synopsis": "Dreams of a Secret Covenant explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9786375085610",
+    "publicationdate": "1994-04-22"
+  },
+  {
+    "id": 464,
+    "authorId": 93,
+    "title": "Chronicles of the Whispering Storm",
+    "synopsis": "A sweeping narrative, Chronicles of the Whispering Storm charts the journey of unlikely allies forging a new destiny.",
+    "isbn": "9787991953113",
+    "publicationdate": "1962-02-21"
+  },
+  {
+    "id": 465,
+    "authorId": 93,
+    "title": "Into the Silent Meridian",
+    "synopsis": "Into the Silent Meridian explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9781646855303",
+    "publicationdate": "1971-05-06"
+  },
+  {
+    "id": 466,
+    "authorId": 94,
+    "title": "Dreams of a Vast Citadel",
+    "synopsis": "A sweeping narrative, Dreams of a Vast Citadel charts the journey of unlikely allies forging a new destiny.",
+    "isbn": "9783094160790",
+    "publicationdate": "1951-10-18"
+  },
+  {
+    "id": 467,
+    "authorId": 94,
+    "title": "The Radiant Beacon",
+    "synopsis": "The Radiant Beacon follows a midnight protagonist who must reconcile past secrets with a perilous future.",
+    "isbn": "9782328994471",
+    "publicationdate": "1956-06-13"
+  },
+  {
+    "id": 468,
+    "authorId": 94,
+    "title": "Dreams of a Radiant Forest",
+    "synopsis": "Set in Solace, Dreams of a Radiant Forest unravels the mystery surrounding an ancient artifact and the power it bestows.",
+    "isbn": "9782554139852",
+    "publicationdate": "2009-08-03"
+  },
+  {
+    "id": 469,
+    "authorId": 94,
+    "title": "Into the Silent Galen",
+    "synopsis": "Into the Silent Galen follows a ancient protagonist who must reconcile past secrets with a perilous future.",
+    "isbn": "9785638762652",
+    "publicationdate": "2017-05-20"
+  },
+  {
+    "id": 470,
+    "authorId": 94,
+    "title": "Chronicles of the Emerald Heir",
+    "synopsis": "A sweeping narrative, Chronicles of the Emerald Heir charts the journey of unlikely allies forging a new destiny.",
+    "isbn": "9782113177915",
+    "publicationdate": "1975-07-02"
+  },
+  {
+    "id": 471,
+    "authorId": 95,
+    "title": "Dreams of a Midnight Eclipse",
+    "synopsis": "Set in Solace, Dreams of a Midnight Eclipse unravels the mystery surrounding an ancient artifact and the power it bestows.",
+    "isbn": "9782399432589",
+    "publicationdate": "1997-01-31"
+  },
+  {
+    "id": 472,
+    "authorId": 95,
+    "title": "Last Odyssey in Lyra",
+    "synopsis": "Last Odyssey in Lyra explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9787501935081",
+    "publicationdate": "1970-10-17"
+  },
+  {
+    "id": 473,
+    "authorId": 95,
+    "title": "Throne of Caligo",
+    "synopsis": "Throne of Caligo explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9786358982041",
+    "publicationdate": "1962-01-13"
+  },
+  {
+    "id": 474,
+    "authorId": 95,
+    "title": "Dreams of a Obsidian Reckoning",
+    "synopsis": "Dreams of a Obsidian Reckoning follows a hidden protagonist who must reconcile past secrets with a perilous future.",
+    "isbn": "9781865942214",
+    "publicationdate": "2002-10-29"
+  },
+  {
+    "id": 475,
+    "authorId": 95,
+    "title": "Dreams of a Obsidian Citadel",
+    "synopsis": "In Dreams of a Obsidian Citadel, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9785294215668",
+    "publicationdate": "2004-12-05"
+  },
+  {
+    "id": 476,
+    "authorId": 96,
+    "title": "Dreams of a Brilliant Harbor",
+    "synopsis": "A sweeping narrative, Dreams of a Brilliant Harbor charts the journey of unlikely allies forging a new destiny.",
+    "isbn": "9782020521952",
+    "publicationdate": "1974-07-13"
+  },
+  {
+    "id": 477,
+    "authorId": 96,
+    "title": "Dreams of a Forgotten Citadel",
+    "synopsis": "In Dreams of a Forgotten Citadel, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9783797888494",
+    "publicationdate": "2000-06-04"
+  },
+  {
+    "id": 478,
+    "authorId": 96,
+    "title": "The Feathered Sky",
+    "synopsis": "Set in Arcadia, The Feathered Sky unravels the mystery surrounding an ancient artifact and the power it bestows.",
+    "isbn": "9789711451618",
+    "publicationdate": "2006-05-27"
+  },
+  {
+    "id": 479,
+    "authorId": 96,
+    "title": "Into the Spectral Orion",
+    "synopsis": "A sweeping narrative, Into the Spectral Orion charts the journey of unlikely allies forging a new destiny.",
+    "isbn": "9787668510945",
+    "publicationdate": "2001-07-18"
+  },
+  {
+    "id": 480,
+    "authorId": 96,
+    "title": "Last Tapestry in Caligo",
+    "synopsis": "In Last Tapestry in Caligo, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9782373540530",
+    "publicationdate": "1985-11-12"
+  },
+  {
+    "id": 481,
+    "authorId": 97,
+    "title": "Beyond the Labyrinth",
+    "synopsis": "A sweeping narrative, Beyond the Labyrinth charts the journey of unlikely allies forging a new destiny.",
+    "isbn": "9784420530085",
+    "publicationdate": "1972-12-26"
+  },
+  {
+    "id": 482,
+    "authorId": 97,
+    "title": "Into the Vast Galen",
+    "synopsis": "Into the Vast Galen follows a ancient protagonist who must reconcile past secrets with a perilous future.",
+    "isbn": "9782341302212",
+    "publicationdate": "2007-03-12"
+  },
+  {
+    "id": 483,
+    "authorId": 97,
+    "title": "Garden of Aether",
+    "synopsis": "A sweeping narrative, Garden of Aether charts the journey of unlikely allies forging a new destiny.",
+    "isbn": "9789209550672",
+    "publicationdate": "1955-10-28"
+  },
+  {
+    "id": 484,
+    "authorId": 97,
+    "title": "River of Halcyon",
+    "synopsis": "River of Halcyon follows a blazing protagonist who must reconcile past secrets with a perilous future.",
+    "isbn": "9786632382073",
+    "publicationdate": "1962-03-07"
+  },
+  {
+    "id": 485,
+    "authorId": 97,
+    "title": "Last Masquerade in Galen",
+    "synopsis": "Last Masquerade in Galen explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9788548767189",
+    "publicationdate": "2007-06-28"
+  },
+  {
+    "id": 486,
+    "authorId": 98,
+    "title": "Into the Golden Arcadia",
+    "synopsis": "In Into the Golden Arcadia, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9783486769048",
+    "publicationdate": "1953-09-03"
+  },
+  {
+    "id": 487,
+    "authorId": 98,
+    "title": "Chronicles of the Hidden Beacon",
+    "synopsis": "A sweeping narrative, Chronicles of the Hidden Beacon charts the journey of unlikely allies forging a new destiny.",
+    "isbn": "9780265457133",
+    "publicationdate": "2012-07-22"
+  },
+  {
+    "id": 488,
+    "authorId": 98,
+    "title": "Chronicles of the Eternal River",
+    "synopsis": "Chronicles of the Eternal River explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9780755858679",
+    "publicationdate": "1981-01-27"
+  },
+  {
+    "id": 489,
+    "authorId": 98,
+    "title": "Constellation of Zephyria",
+    "synopsis": "In Constellation of Zephyria, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9788058183579",
+    "publicationdate": "1963-09-03"
+  },
+  {
+    "id": 490,
+    "authorId": 98,
+    "title": "Shadows over Elysian",
+    "synopsis": "Shadows over Elysian explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9780104383556",
+    "publicationdate": "1959-10-09"
+  },
+  {
+    "id": 491,
+    "authorId": 99,
+    "title": "Last Archive in Zephyria",
+    "synopsis": "A sweeping narrative, Last Archive in Zephyria charts the journey of unlikely allies forging a new destiny.",
+    "isbn": "9785629424112",
+    "publicationdate": "1987-01-08"
+  },
+  {
+    "id": 492,
+    "authorId": 99,
+    "title": "Throne of Elysian",
+    "synopsis": "Throne of Elysian explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9788469120953",
+    "publicationdate": "1965-04-02"
+  },
+  {
+    "id": 493,
+    "authorId": 99,
+    "title": "Chronicles of the Forgotten Eclipse",
+    "synopsis": "In Chronicles of the Forgotten Eclipse, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9788895963962",
+    "publicationdate": "1987-03-07"
+  },
+  {
+    "id": 494,
+    "authorId": 99,
+    "title": "Chronicles of the Silent Legacy",
+    "synopsis": "In Chronicles of the Silent Legacy, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9781205880214",
+    "publicationdate": "1960-07-10"
+  },
+  {
+    "id": 495,
+    "authorId": 99,
+    "title": "Last Song in Aurora",
+    "synopsis": "Last Song in Aurora explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9785164051457",
+    "publicationdate": "1981-02-02"
+  },
+  {
+    "id": 496,
+    "authorId": 100,
+    "title": "Dreams of a Silent Covenant",
+    "synopsis": "In Dreams of a Silent Covenant, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9786410849519",
+    "publicationdate": "1973-10-14"
+  },
+  {
+    "id": 497,
+    "authorId": 100,
+    "title": "The Blazing Harbor",
+    "synopsis": "In The Blazing Harbor, love and rebellion intertwine as ordinary lives collide with extraordinary events.",
+    "isbn": "9783597949214",
+    "publicationdate": "1979-06-09"
+  },
+  {
+    "id": 498,
+    "authorId": 100,
+    "title": "Last Heir in Galen",
+    "synopsis": "Set in Vesper, Last Heir in Galen unravels the mystery surrounding an ancient artifact and the power it bestows.",
+    "isbn": "9788227396908",
+    "publicationdate": "2001-05-13"
+  },
+  {
+    "id": 499,
+    "authorId": 100,
+    "title": "Empire of Aurora",
+    "synopsis": "Empire of Aurora explores the resilience of communities facing irreversible change and hidden truths.",
+    "isbn": "9788833073888",
+    "publicationdate": "2021-11-29"
+  },
+  {
+    "id": 500,
+    "authorId": 100,
+    "title": "Chronicles of the Restless Song",
+    "synopsis": "A sweeping narrative, Chronicles of the Restless Song charts the journey of unlikely allies forging a new destiny.",
+    "isbn": "9781350422083",
+    "publicationdate": "1977-11-06"
+  }
+]
