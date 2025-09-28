@@ -52,8 +52,6 @@ const sqliteDb = new sqlite3.Database(
   (err) => {
     if (err) {
       console.error('❌ SQLite connection failed:', err.message);
-    } else {
-      console.log(`✅ Connected to SQLite: ${sqliteDatabasePath}`);
     }
   }
 );
@@ -357,32 +355,6 @@ const resolvers = {
 // -----------------------------
 // Startup
 // -----------------------------
-
-const verifyConnections = async () => {
-  try {
-    const { rows } = await pgPool.query('SELECT COUNT(*) AS count FROM authors');
-    console.log(`✅ Postgres authors rows: ${rows[0]?.count ?? 0}`);
-  } catch (err) {
-    console.error('❌ Postgres connectivity check failed:', err.message);
-  }
-
-  try {
-    const [rows] = await mariaPool.query('SELECT COUNT(*) AS count FROM books');
-    console.log(`✅ MySQL books rows: ${rows[0]?.count ?? 0}`);
-  } catch (err) {
-    console.error('❌ MySQL connectivity check failed:', err.message);
-  }
-
-  try {
-    await sqliteReady;
-    const row = await sqliteGet('SELECT COUNT(*) AS count FROM reviews');
-    console.log(`✅ SQLite reviews rows: ${row?.count ?? 0}`);
-  } catch (err) {
-    console.error('❌ SQLite connectivity check failed:', err.message);
-  }
-};
-
-await verifyConnections();
 
 const server = new ApolloServer({
   typeDefs,
