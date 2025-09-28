@@ -373,7 +373,7 @@ const { url } = await startStandaloneServer(server, {
   }),
 });
 
-console.log(`🚀 GraphQL 427 running at ${url}`);
+console.log(`🚀 GraphQL running at ${url}`);
 
 process.on('SIGINT', () => {
   console.log('Shutting down...');
