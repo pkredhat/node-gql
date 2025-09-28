@@ -37,7 +37,7 @@ jobs:
         env:
           IMAGE_NAME: ${{ env.IMAGE_NAME }}
         run: |
-          REGISTRY=$(oc registry info)
+          REGISTRY=$(oc registry info --default-route)
           IMAGE_TAG=${GITHUB_SHA::7}
           echo "REGISTRY=$REGISTRY" >> $GITHUB_OUTPUT
           echo "IMAGE=$REGISTRY/${{ secrets.OCP_NAMESPACE }}/$IMAGE_NAME:$IMAGE_TAG" >> $GITHUB_OUTPUT
@@ -45,7 +45,8 @@ jobs:
 
       - name: Log in to OpenShift registry
         run: |
-          docker login -u $(oc whoami) -p $(oc whoami -t) ${{ steps.tag.outputs.REGISTRY }}
+          oc whoami -t | docker login ${{ steps.tag.outputs.REGISTRY }} \
+            -u $(oc whoami) --password-stdin
 
       - name: Build image
         run: |
