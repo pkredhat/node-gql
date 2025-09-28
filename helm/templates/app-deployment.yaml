@@ -14,6 +14,9 @@ spec:
     metadata:
       labels:
         app: {{ include "node-graphql-chart.appFullname" . | quote }}
+      annotations:
+        image.openshift.io/triggers: >-
+          [{"from":{"kind":"ImageStreamTag","name":"{{ .Values.imageStream.name }}:{{ .Values.imageStream.tag }}","namespace":"{{ .Release.Namespace }}"},"fieldPath":"spec.template.spec.containers[?(@.name=='graphql-app')].image"}]
     spec:
       containers:
         - name: graphql-app
