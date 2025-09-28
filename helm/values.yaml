@@ -10,7 +10,9 @@ app:
   route:
     enabled: true
     host: ""
-    tls: null
+    tls:
+      termination: edge
+      insecureEdgeTerminationPolicy: Redirect
   env: []
   resources: {}
   nodeSelector: null

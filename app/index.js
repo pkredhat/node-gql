@@ -395,6 +395,7 @@ const landingPagePlugin =
 const server = new ApolloServer({
   typeDefs,
   resolvers,
+  introspection: true,
   plugins: [landingPagePlugin],
 });
 
