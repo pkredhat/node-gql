@@ -5,6 +5,9 @@ metadata:
   name: {{ include "node-graphql-chart.appFullname" . }}
   labels:
     {{- include "node-graphql-chart.labels" . | nindent 4 }}
+  annotations:
+    image.openshift.io/triggers: >-
+      [{"from":{"kind":"ImageStreamTag","name":"{{ .Values.imageStream.name }}:{{ .Values.imageStream.tag }}","namespace":"{{ .Release.Namespace }}"},"fieldPath":"spec.template.spec.containers[?(@.name=='graphql-app')].image"}]
 spec:
   replicas: {{ .Values.replicaCount | default 1 }}
   selector:
@@ -14,9 +17,6 @@ spec:
     metadata:
       labels:
         app: {{ include "node-graphql-chart.appFullname" . | quote }}
-      annotations:
-        image.openshift.io/triggers: >-
-          [{"from":{"kind":"ImageStreamTag","name":"{{ .Values.imageStream.name }}:{{ .Values.imageStream.tag }}","namespace":"{{ .Release.Namespace }}"},"fieldPath":"spec.template.spec.containers[?(@.name=='graphql-app')].image"}]
     spec:
       containers:
         - name: graphql-app
