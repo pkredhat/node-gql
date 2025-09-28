@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: graphql-app
-          image: {{ .Values.app.image | quote }}
+          image: {{ include "node-graphql-chart.appImage" . | quote }}
           imagePullPolicy: {{ .Values.app.imagePullPolicy | default "IfNotPresent" }}
           ports:
             - containerPort: {{ .Values.app.service.port }}

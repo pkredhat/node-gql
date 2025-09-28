@@ -1,0 +1,11 @@
+{{- if .Values.imageStream.enabled }}
+apiVersion: image.openshift.io/v1
+kind: ImageStream
+metadata:
+  name: {{ .Values.imageStream.name | quote }}
+  labels:
+    {{- include "node-graphql-chart.labels" . | nindent 4 }}
+spec:
+  lookupPolicy:
+    local: {{ .Values.imageStream.lookupPolicyLocal | default true }}
+{{- end }}

@@ -1,0 +1,45 @@
+{{- if .Values.buildConfig.enabled }}
+apiVersion: build.openshift.io/v1
+kind: BuildConfig
+metadata:
+  name: {{ include "node-graphql-chart.appFullname" . }}
+  labels:
+    {{- include "node-graphql-chart.labels" . | nindent 4 }}
+spec:
+  runPolicy: {{ .Values.buildConfig.runPolicy | default "Serial" }}
+  source:
+    type: Git
+    git:
+      uri: {{ .Values.buildConfig.git.uri | quote }}
+      {{- with .Values.buildConfig.git.ref }}
+      ref: {{ . | quote }}
+      {{- end }}
+    {{- with .Values.buildConfig.git.contextDir }}
+    contextDir: {{ . | quote }}
+    {{- end }}
+  strategy:
+    type: Docker
+    dockerStrategy:
+      dockerfilePath: {{ .Values.buildConfig.dockerfilePath | default "Dockerfile" | quote }}
+      {{- if .Values.buildConfig.env }}
+      env:
+        {{- toYaml .Values.buildConfig.env | nindent 8 }}
+      {{- end }}
+  output:
+    to:
+      kind: ImageStreamTag
+      name: {{ printf "%s:%s" .Values.imageStream.name .Values.imageStream.tag | quote }}
+  {{- if or .Values.buildConfig.triggers.configChange .Values.buildConfig.triggers.imageChange }}
+  triggers:
+    {{- if .Values.buildConfig.triggers.configChange }}
+    - type: ConfigChange
+    {{- end }}
+    {{- if .Values.buildConfig.triggers.imageChange }}
+    - type: ImageChange
+    {{- end }}
+  {{- end }}
+  {{- with .Values.buildConfig.resources }}
+  resources:
+    {{- toYaml . | nindent 4 }}
+  {{- end }}
+{{- end }}

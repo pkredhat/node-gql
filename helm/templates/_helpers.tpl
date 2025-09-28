@@ -76,3 +76,11 @@ app.kubernetes.io/instance: {{ .Release.Name | quote }}
 {{- toYaml .Values.app.env | nindent 0 }}
 {{- end }}
 {{- end -}}
+
+{{- define "node-graphql-chart.appImage" -}}
+{{- if .Values.app.image -}}
+{{- .Values.app.image -}}
+{{- else -}}
+{{- printf "image-registry.openshift-image-registry.svc:5000/%s/%s:%s" .Release.Namespace .Values.imageStream.name .Values.imageStream.tag -}}
+{{- end -}}
+{{- end -}}

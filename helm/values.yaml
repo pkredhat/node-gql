@@ -2,16 +2,40 @@ replicaCount: 1
 
 app:
   enabled: true
-  image: "pkredhat/node-graphql:latest"
+  image: ""
   imagePullPolicy: IfNotPresent
   service:
     type: ClusterIP
     port: 4000
+  route:
+    enabled: true
+    host: ""
+    tls: null
   env: []
   resources: {}
   nodeSelector: null
   affinity: null
   tolerations: []
+
+imageStream:
+  enabled: true
+  name: node-graphql
+  tag: latest
+  lookupPolicyLocal: true
+
+buildConfig:
+  enabled: true
+  git:
+    uri: https://github.com/pkredhat/node-gql.git
+    ref: master
+    contextDir: app
+  dockerfilePath: Dockerfile
+  resources: {}
+  env: []
+  triggers:
+    configChange: true
+    imageChange: true
+  runPolicy: Serial
 
 postgres:
   enabled: true
@@ -31,11 +55,11 @@ postgres:
 
 mysql:
   enabled: true
-  username: "appuser"
-  password: "apppass"
-  rootpassword: "rootpass123"
-  database: "appdb"
-  image: "mysql:8.0"
+  username: appuser
+  password: apppass
+  rootpassword: rootpass123
+  database: appdb
+  image: mysql:8.0
   port: 3306
   storage: 1Gi
   service:

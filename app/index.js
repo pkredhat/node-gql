@@ -1,5 +1,9 @@
 import 'dotenv/config';
 import { ApolloServer } from '@apollo/server';
+import {
+  ApolloServerPluginLandingPageLocalDefault,
+  ApolloServerPluginLandingPageProductionDefault
+} from '@apollo/server/plugin/landingPage/default';
 import { startStandaloneServer } from '@apollo/server/standalone';
 import DataLoader from 'dataloader';
 import pg from 'pg';
@@ -383,7 +387,16 @@ const verifyConnections = async () => {
 
 await verifyConnections();
 
-const server = new ApolloServer({ typeDefs, resolvers });
+const landingPagePlugin =
+  process.env.NODE_ENV === 'production'
+    ? ApolloServerPluginLandingPageProductionDefault({ embed: true })
+    : ApolloServerPluginLandingPageLocalDefault({ embed: true });
+
+const server = new ApolloServer({
+  typeDefs,
+  resolvers,
+  plugins: [landingPagePlugin],
+});
 
 const { url } = await startStandaloneServer(server, {
   listen: { port: Number(process.env.PORT || 4000) },

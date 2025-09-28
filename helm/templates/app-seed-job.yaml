@@ -22,7 +22,7 @@ spec:
       restartPolicy: OnFailure
       containers:
         - name: seed
-          image: {{ .Values.app.image | quote }}
+          image: {{ include "node-graphql-chart.appImage" . | quote }}
           imagePullPolicy: {{ .Values.app.imagePullPolicy | default "IfNotPresent" }}
           command: ["node", "scripts/seed.js"]
           env:
