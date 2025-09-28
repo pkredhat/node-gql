@@ -3,7 +3,7 @@ replicaCount: 1
 app:
   enabled: true
   image: ""
-  imagePullPolicy: IfNotPresent
+  imagePullPolicy: Always
   service:
     type: ClusterIP
     port: 4000
