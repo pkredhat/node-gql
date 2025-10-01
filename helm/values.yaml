@@ -91,3 +91,22 @@ seedJob:
   nodeSelector: null
   affinity: null
   tolerations: []
+
+argocd:
+  enabled: true
+  namespace: openshift-gitops
+  project: default
+  repoURL: https://github.com/pkredhat/node-gql.git
+  targetRevision: master
+  path: helm
+  helm:
+    valueFiles: []
+    parameters: []
+  destinationServer: https://kubernetes.default.svc
+  syncPolicy:
+    automated:
+      enabled: true
+      prune: true
+      selfHeal: true
+    syncOptions:
+      - CreateNamespace=true

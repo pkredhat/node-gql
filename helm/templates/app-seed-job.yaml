@@ -9,6 +9,7 @@ metadata:
     "helm.sh/hook": post-install,post-upgrade
     "helm.sh/hook-weight": "5"
     "helm.sh/hook-delete-policy": before-hook-creation,hook-succeeded
+    "argocd.argoproj.io/sync-options": SkipHooks=true
     {{- range $key, $value := .Values.seedJob.annotations }}
     {{ $key }}: {{ $value | quote }}
     {{- end }}

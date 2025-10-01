@@ -1,0 +1,46 @@
+{{- if .Values.argocd.enabled }}
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: {{ include "node-graphql-chart.fullname" . }}
+  namespace: {{ .Values.argocd.namespace | default "openshift-gitops" | quote }}
+  labels:
+    {{- include "node-graphql-chart.labels" . | nindent 4 }}
+spec:
+  project: {{ .Values.argocd.project | default "default" | quote }}
+  destination:
+    namespace: {{ .Release.Namespace | quote }}
+    server: {{ .Values.argocd.destinationServer | default "https://kubernetes.default.svc" | quote }}
+  source:
+    repoURL: {{ .Values.argocd.repoURL | quote }}
+    targetRevision: {{ .Values.argocd.targetRevision | default "master" | quote }}
+    path: {{ .Values.argocd.path | default "helm" | quote }}
+    {{- with .Values.argocd.helm }}
+    helm:
+      {{- if .valueFiles }}
+      valueFiles:
+        {{- range .valueFiles }}
+        - {{ . | quote }}
+        {{- end }}
+      {{- end }}
+      {{- if .parameters }}
+      parameters:
+        {{- range .parameters }}
+        - name: {{ .name | quote }}
+          value: {{ .value | quote }}
+        {{- end }}
+      {{- end }}
+    {{- end }}
+  syncPolicy:
+    {{- if .Values.argocd.syncPolicy.automated.enabled | default true }}
+    automated:
+      prune: {{ .Values.argocd.syncPolicy.automated.prune | default true }}
+      selfHeal: {{ .Values.argocd.syncPolicy.automated.selfHeal | default true }}
+    {{- end }}
+    {{- if .Values.argocd.syncPolicy.syncOptions }}
+    syncOptions:
+      {{- range .Values.argocd.syncPolicy.syncOptions }}
+      - {{ . | quote }}
+      {{- end }}
+    {{- end }}
+{{- end }}

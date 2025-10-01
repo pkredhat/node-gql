@@ -7,7 +7,10 @@ metadata:
     {{- include "node-graphql-chart.labels" . | nindent 4 }}
   annotations:
     image.openshift.io/triggers: >-
-      [{"from":{"kind":"ImageStreamTag","name":"{{ .Values.imageStream.name }}:{{ .Values.imageStream.tag }}","namespace":"{{ .Release.Namespace }}"},"fieldPath":"spec.template.spec.containers[?(@.name==\"graphql-app\")].image"}]
+      [{"from":{"kind":"ImageStreamTag","name":"{{ .Values.imageStream.name }}:{{ .Values.imageStream.tag }}","namespace":"{{ .Release.Namespace }}"},"fieldPath":"spec.template.spec.containers[?(@.name=='graphql-app')].image"}]
+    argocd.argoproj.io/ignore-differences: |-
+      jsonPointers:
+        - /spec/template/spec/containers/0/image
 spec:
   replicas: {{ .Values.replicaCount | default 1 }}
   selector:
