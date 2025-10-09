@@ -143,7 +143,11 @@ async function seedMySQL() {
     await connection
       .query('ALTER TABLE books MODIFY COLUMN id INT AUTO_INCREMENT PRIMARY KEY;')
       .catch((err) => {
-        if (err?.code !== 'ER_CANT_SET_AUTO_VALUE') {
+        if (!err?.code) {
+          throw err;
+        }
+        const ignorable = new Set(['ER_CANT_SET_AUTO_VALUE', 'ER_MULTIPLE_PRI_KEY']);
+        if (!ignorable.has(err.code)) {
           throw err;
         }
       });
