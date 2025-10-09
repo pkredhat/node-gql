@@ -272,6 +272,7 @@ const typeDefs = `#graphql
     addReview(bookId: ID!, reviewerName: String!, rating: Int!, comment: String!): Review!
     addAuthor(input: AddAuthorInput!): Author!
     addBook(input: AddBookInput!): Book!
+    deleteAuthor(id: ID!): Boolean!
   }
 
   input AddAuthorInput {
@@ -514,6 +515,67 @@ const resolvers = {
       }
 
       return book;
+    },
+    deleteAuthor: async (_, { id }, { loaders }) => {
+      const authorId = Number(id);
+      if (!Number.isInteger(authorId) || authorId <= 0) {
+        throw new Error('Invalid author id');
+      }
+
+      const { rows: authorRows } = await pgPool.query(
+        `SELECT id FROM authors WHERE id = $1`,
+        [authorId]
+      );
+      if (!authorRows[0]) {
+        return false;
+      }
+
+      const [bookRows] = await mariaPool.query(
+        `SELECT id FROM books WHERE author_id = ?`,
+        [authorId]
+      );
+      const bookIds = Array.isArray(bookRows) ? bookRows.map((row) => Number(row.id)) : [];
+
+      await mariaPool.query('BEGIN');
+      try {
+        if (bookIds.length > 0) {
+          const placeholders = buildSqlPlaceholders(bookIds.length);
+          await mariaPool.query(
+            `DELETE FROM books WHERE id IN (${placeholders})`,
+            bookIds
+          );
+          await sqliteReady;
+          await sqliteRun(
+            `DELETE FROM reviews WHERE book_id IN (${placeholders})`,
+            bookIds
+          );
+        }
+
+        await pgPool.query(
+          `DELETE FROM authors WHERE id = $1`,
+          [authorId]
+        );
+
+        await mariaPool.query('COMMIT');
+      } catch (err) {
+        await mariaPool.query('ROLLBACK').catch(() => undefined);
+        throw err;
+      }
+
+      if (loaders?.authorById) {
+        loaders.authorById.clear(authorId);
+      }
+      if (loaders?.booksByAuthorId) {
+        loaders.booksByAuthorId.clear(authorId);
+      }
+      if (loaders?.bookById) {
+        for (const bookId of bookIds) {
+          loaders.bookById.clear(bookId);
+          loaders.reviewsByBookId?.clear(bookId);
+        }
+      }
+
+      return true;
     },
   },
   Author: {
