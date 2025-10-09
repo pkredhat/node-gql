@@ -31,7 +31,7 @@ spec:
             {{- with .Values.seedJob.env }}
             {{- toYaml . | nindent 12 }}
             {{- end }}
-          {{- if and .Values.sqlite.enabled .Values.sqlite.persistent }}
+          {{- if .Values.sqlite.enabled }}
           volumeMounts:
             - name: sqlite-data
               mountPath: {{ .Values.sqlite.mountPath | quote }}
@@ -40,11 +40,15 @@ spec:
           resources:
             {{- toYaml . | nindent 12 }}
           {{- end }}
-      {{- if and .Values.sqlite.enabled .Values.sqlite.persistent }}
+      {{- if .Values.sqlite.enabled }}
       volumes:
         - name: sqlite-data
+{{- if .Values.sqlite.persistent }}
           persistentVolumeClaim:
             claimName: {{ include "node-graphql-chart.sqliteFullname" . }}
+{{- else }}
+          emptyDir: {}
+{{- end }}
       {{- end }}
       {{- with .Values.seedJob.nodeSelector }}
       nodeSelector:
