@@ -1,1 +1,3 @@
 
+Postgres connection
+    oc port-forward statefulset/gql-node-deploy-postgres 15432:5432
