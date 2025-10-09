@@ -4,3 +4,4 @@
 /app/*.log
 /app/.env
 /app/.DS_Store
+test.instructions
