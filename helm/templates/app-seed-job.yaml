@@ -31,7 +31,7 @@ spec:
             {{- with .Values.seedJob.env }}
             {{- toYaml . | nindent 12 }}
             {{- end }}
-          {{- if .Values.sqlite.enabled }}
+          {{- if and .Values.sqlite.enabled .Values.sqlite.persistent }}
           volumeMounts:
             - name: sqlite-data
               mountPath: {{ .Values.sqlite.mountPath | quote }}
@@ -40,7 +40,7 @@ spec:
           resources:
             {{- toYaml . | nindent 12 }}
           {{- end }}
-      {{- if .Values.sqlite.enabled }}
+      {{- if and .Values.sqlite.enabled .Values.sqlite.persistent }}
       volumes:
         - name: sqlite-data
           persistentVolumeClaim:

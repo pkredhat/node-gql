@@ -184,7 +184,12 @@ async function seedMySQL() {
 }
 
 async function seedSQLite() {
-  const sqlitePath = process.env.SQLITE_PATH || path.join(process.env.SQLITE_MOUNT_PATH || '.', process.env.SQLITE_DB_FILE || 'reviews.db');
+  const sqlitePath = process.env.SQLITE_PATH || path.join(
+    process.env.SQLITE_MOUNT_PATH || '.',
+    process.env.SQLITE_DB_FILE || 'reviews.db'
+  );
+
+  fs.mkdirSync(path.dirname(sqlitePath), { recursive: true });
 
   await withRetry(async () => {
     const db = await new Promise((resolve, reject) => {

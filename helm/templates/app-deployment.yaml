@@ -30,11 +30,11 @@ spec:
               name: http
           env:
             {{- include "node-graphql-chart.appEnv" . | nindent 12 }}
+          {{- if .Values.sqlite.enabled }}
           volumeMounts:
-            {{- if .Values.sqlite.enabled }}
             - name: sqlite-data
               mountPath: {{ .Values.sqlite.mountPath | quote }}
-            {{- end }}
+          {{- end }}
           {{- with .Values.app.resources }}
           resources:
             {{- toYaml . | nindent 12 }}
@@ -42,8 +42,12 @@ spec:
       {{- if .Values.sqlite.enabled }}
       volumes:
         - name: sqlite-data
+{{- if .Values.sqlite.persistent }}
           persistentVolumeClaim:
             claimName: {{ include "node-graphql-chart.sqliteFullname" . }}
+{{- else }}
+          emptyDir: {}
+{{- end }}
       {{- end }}
       {{- with .Values.app.nodeSelector }}
       nodeSelector:

@@ -75,6 +75,7 @@ mysql:
 
 sqlite:
   enabled: true
+  persistent: false
   storage: 1Gi
   accessModes:
     - ReadWriteOnce

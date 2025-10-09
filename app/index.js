@@ -8,8 +8,13 @@ import mysql from 'mysql2/promise';
 import sqlite3 from 'sqlite3';
 import { promisify } from 'util';
 import path from 'path';
+import fs from 'fs';
+import { fileURLToPath } from 'url';
 
 const { Pool } = pg;
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 // -----------------------------
 // Database connections
@@ -45,6 +50,15 @@ const defaultSqliteFile = process.env.SQLITE_DB_FILE || 'reviews.db';
 const sqliteDatabasePath = path.resolve(
   process.env.SQLITE_PATH || path.join(defaultSqliteDir, defaultSqliteFile)
 );
+const sqliteDirectory = path.dirname(sqliteDatabasePath);
+
+try {
+  fs.mkdirSync(sqliteDirectory, { recursive: true });
+} catch (err) {
+  if (err && err.code !== 'EEXIST') {
+    console.error('❌ Unable to create SQLite directory:', err.message);
+  }
+}
 
 const sqliteDb = new sqlite3.Database(
   sqliteDatabasePath,
@@ -91,6 +105,68 @@ const ensureAuthorSequenceAligned = async () => {
       });
   }
   return authorSequenceAlignmentPromise;
+};
+
+const ensureSqliteInitialized = async () => {
+  try {
+    await sqliteReady;
+  } catch (err) {
+    console.error('❌ SQLite readiness failed:', err);
+    throw err;
+  }
+
+  await sqliteRun(`CREATE TABLE IF NOT EXISTS reviews (
+    id INTEGER PRIMARY KEY,
+    book_id INTEGER NOT NULL,
+    reviewername TEXT NOT NULL,
+    rating INTEGER NOT NULL,
+    comment TEXT
+  );`);
+
+  const existingCountRow = await sqliteGet(
+    'SELECT COUNT(1) AS count FROM reviews'
+  ).catch(() => ({ count: 0 }));
+
+  if ((existingCountRow?.count ?? 0) > 0) {
+    return;
+  }
+
+  let reviewsData;
+  try {
+    const reviewsPath = path.join(__dirname, 'reviews.json');
+    const fileContents = await fs.promises.readFile(reviewsPath, 'utf8');
+    reviewsData = JSON.parse(fileContents);
+  } catch (err) {
+    console.error('❌ Failed to load reviews seed data:', err);
+    return;
+  }
+
+  if (!Array.isArray(reviewsData) || reviewsData.length === 0) {
+    console.warn('ℹ️ No reviews data found to seed SQLite');
+    return;
+  }
+
+  await sqliteRun('BEGIN TRANSACTION;');
+  try {
+    for (const review of reviewsData) {
+      await sqliteRun(
+        `INSERT OR REPLACE INTO reviews (id, book_id, reviewername, rating, comment)
+         VALUES (?, ?, ?, ?, ?)`,
+        [
+          review.id,
+          review.bookId,
+          review.reviewername,
+          review.rating,
+          review.comment,
+        ]
+      );
+    }
+    await sqliteRun('COMMIT;');
+    console.log(`✅ Seeded ${reviewsData.length} reviews into SQLite`);
+  } catch (err) {
+    await sqliteRun('ROLLBACK;').catch(() => undefined);
+    console.error('❌ Failed to seed SQLite reviews:', err);
+  }
 };
 
 // -----------------------------
@@ -589,6 +665,8 @@ const resolvers = {
     book: (review, _, { loaders }) => loaders.bookById.load(review.bookId),
   },
 };
+
+await ensureSqliteInitialized();
 
 // -----------------------------
 // Startup
