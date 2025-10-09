@@ -131,7 +131,7 @@ async function seedMySQL() {
   try {
     await connection.query(`
       CREATE TABLE IF NOT EXISTS books (
-        id INT PRIMARY KEY,
+        id INT AUTO_INCREMENT PRIMARY KEY,
         author_id INT NOT NULL,
         title VARCHAR(255) NOT NULL,
         synopsis TEXT,
@@ -139,6 +139,14 @@ async function seedMySQL() {
         publicationdate DATE
       ) ENGINE=InnoDB;
     `);
+
+    await connection
+      .query('ALTER TABLE books MODIFY COLUMN id INT AUTO_INCREMENT PRIMARY KEY;')
+      .catch((err) => {
+        if (err?.code !== 'ER_CANT_SET_AUTO_VALUE') {
+          throw err;
+        }
+      });
 
     await connection.beginTransaction();
     for (const book of books) {
@@ -162,6 +170,10 @@ async function seedMySQL() {
       );
     }
     await connection.commit();
+
+    const [maxRows] = await connection.query('SELECT COALESCE(MAX(id), 0) AS maxId FROM books');
+    const maxId = maxRows[0]?.maxId ?? 0;
+    await connection.query('ALTER TABLE books AUTO_INCREMENT = ?', [maxId + 1]);
   } catch (err) {
     await connection.rollback().catch(() => undefined);
     throw err;

@@ -74,6 +74,25 @@ const sqliteRun = (sql, params = []) =>
     });
   });
 
+let authorSequenceAlignmentPromise;
+
+const ensureAuthorSequenceAligned = async () => {
+  if (!authorSequenceAlignmentPromise) {
+    authorSequenceAlignmentPromise = pgPool
+      .query(
+        `SELECT setval(
+           pg_get_serial_sequence('authors', 'id'),
+           COALESCE((SELECT MAX(id) FROM authors), 0)
+         )`
+      )
+      .catch((err) => {
+        authorSequenceAlignmentPromise = null;
+        throw err;
+      });
+  }
+  return authorSequenceAlignmentPromise;
+};
+
 // -----------------------------
 // Row mappers & utilities
 // -----------------------------
@@ -125,6 +144,12 @@ const normalizeDateTime = (value) => {
 };
 
 const buildSqlPlaceholders = (count) => new Array(count).fill('?').join(', ');
+
+const toNullableString = (value) => {
+  if (value === undefined || value === null) return null;
+  const trimmed = value.toString().trim();
+  return trimmed.length === 0 ? null : trimmed;
+};
 
 // -----------------------------
 // DataLoaders
@@ -245,6 +270,28 @@ const typeDefs = `#graphql
 
   type Mutation {
     addReview(bookId: ID!, reviewerName: String!, rating: Int!, comment: String!): Review!
+    addAuthor(input: AddAuthorInput!): Author!
+    addBook(input: AddBookInput!): Book!
+  }
+
+  input AddAuthorInput {
+    firstname: String!
+    lastname: String!
+    birthdate: String
+    deathdate: String
+    favoriteColor: String
+    bio: String
+    nationality: String
+    dateCreated: String
+  }
+
+  input AddBookInput {
+    authorId: ID!
+    title: String!
+    synopsis: String
+    isbn: String
+    publicationDate: String
+    id: ID
   }
 `;
 
@@ -338,6 +385,135 @@ const resolvers = {
       );
       loaders.reviewsByBookId.clear(normalizedBookId);
       return mapReviewRow(row);
+    },
+    addAuthor: async (_, { input }, { loaders }) => {
+      const firstname = toNullableString(input.firstname);
+      const lastname = toNullableString(input.lastname);
+
+      if (!firstname) {
+        throw new Error('firstname is required');
+      }
+      if (!lastname) {
+        throw new Error('lastname is required');
+      }
+
+      const birthdate = toNullableString(input.birthdate);
+      const deathdate = toNullableString(input.deathdate);
+      const favoriteColor = toNullableString(input.favoriteColor);
+      const bio = toNullableString(input.bio);
+      const nationality = toNullableString(input.nationality);
+      const dateCreated = toNullableString(input.dateCreated) ?? new Date().toISOString().slice(0, 10);
+
+      await ensureAuthorSequenceAligned();
+
+      const { rows } = await pgPool.query(
+        `INSERT INTO authors (
+           firstname, lastname, birthdate, deathdate, favoritecolor, bio, nationality, datecreated
+         ) VALUES ($1, $2, $3, $4, $5, $6, $7, $8)
+         RETURNING id, firstname, lastname, birthdate, deathdate, favoritecolor, bio, nationality, datecreated`,
+        [firstname, lastname, birthdate, deathdate, favoriteColor, bio, nationality, dateCreated]
+      );
+
+      const row = rows[0];
+      if (!row) {
+        throw new Error('Failed to create author');
+      }
+
+      const author = mapAuthorRow(row);
+
+      if (loaders?.authorById) {
+        loaders.authorById.clear(author.id).prime(author.id, author);
+      }
+      if (loaders?.booksByAuthorId) {
+        loaders.booksByAuthorId.clear(author.id).prime(author.id, []);
+      }
+
+      return author;
+    },
+    addBook: async (_, { input }, { loaders }) => {
+      const hasExplicitId = input.id !== undefined && input.id !== null;
+      const numericAuthorId = Number(input.authorId);
+      if (!Number.isInteger(numericAuthorId) || numericAuthorId <= 0) {
+        throw new Error('authorId must be a positive integer');
+      }
+
+      let desiredBookId = null;
+      if (hasExplicitId) {
+        desiredBookId = Number(input.id);
+        if (!Number.isInteger(desiredBookId) || desiredBookId <= 0) {
+          throw new Error('Book id must be a positive integer when provided');
+        }
+      }
+
+      const title = toNullableString(input.title);
+      if (!title) {
+        throw new Error('title is required');
+      }
+
+      const synopsis = toNullableString(input.synopsis);
+      const isbn = toNullableString(input.isbn);
+      const publicationDate = toNullableString(input.publicationDate);
+
+      const { rows: authorRows } = await pgPool.query(
+        `SELECT id FROM authors WHERE id = $1`,
+        [numericAuthorId]
+      );
+      if (!authorRows[0]) {
+        throw new Error(`Author ${input.authorId} not found`);
+      }
+
+      if (hasExplicitId) {
+        const [existingBooks] = await mariaPool.query(
+          `SELECT id FROM books WHERE id = ? LIMIT 1`,
+          [desiredBookId]
+        );
+        if (Array.isArray(existingBooks) && existingBooks.length > 0) {
+          throw new Error(`Book ${input.id} already exists`);
+        }
+      }
+
+      let insertId;
+      if (hasExplicitId) {
+        await mariaPool.query(
+          `INSERT INTO books (id, author_id, title, synopsis, isbn, publicationdate)
+           VALUES (?, ?, ?, ?, ?, ?)`
+          ,
+          [desiredBookId, numericAuthorId, title, synopsis, isbn, publicationDate]
+        );
+        insertId = desiredBookId;
+      } else {
+        const [result] = await mariaPool.query(
+          `INSERT INTO books (author_id, title, synopsis, isbn, publicationdate)
+           VALUES (?, ?, ?, ?, ?)`
+          ,
+          [numericAuthorId, title, synopsis, isbn, publicationDate]
+        );
+        insertId = result.insertId;
+      }
+
+      const [rows] = await mariaPool.query(
+        `SELECT id, author_id, title, synopsis, isbn, publicationdate
+         FROM books
+         WHERE id = ?
+         LIMIT 1`,
+        [insertId]
+      );
+
+      const bookRow = rows[0];
+      if (!bookRow) {
+        throw new Error('Failed to load created book');
+      }
+
+      const book = mapBookRow(bookRow);
+
+      if (loaders?.bookById) {
+        loaders.bookById.clear(book.id).prime(book.id, book);
+      }
+      if (loaders?.booksByAuthorId) {
+        loaders.booksByAuthorId.clear(book.authorId);
+      }
+
+      return book;
     },
   },
   Author: {
